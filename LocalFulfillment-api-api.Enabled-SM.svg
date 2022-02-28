@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="631px" preserveAspectRatio="none" style="width:514px;height:631px;" version="1.1" viewBox="0 0 514 631" width="514px" zoomAndPan="magnify"><defs><filter height="300%" id="f19civl48rnv38" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="612.2969" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="495" x="7" y="7"/><rect fill="#FFFFFF" height="580" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="489" x="10" y="36.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="502" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="226.5" y="24.9951">Enabled</text><polygon fill="#FEFECE" filter="url(#f19civl48rnv38)" points="240,101.2969,252,113.2969,240,125.2969,228,113.2969,240,101.2969" style="stroke:#A80036;stroke-width:1.5;"/><g id="Enabled.api.Enabled.Connecting"><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="100" x="117" y="205.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="117" x2="217" y1="231.5938" y2="231.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="127" y="223.292">Connecting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="122" y="247.7324">queryResp()</text></g><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="128" x="19" y="335.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="24" y="360.1436">WaitingAutoResp</text><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="135" x="105.5" y="561.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="110.5" y="586.1436">WaitingDiscoResp</text><ellipse cx="240" cy="54.2969" fill="#000000" filter="url(#f19civl48rnv38)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="Enabled.api.Enabled.Unconnected"><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="74.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="125" x="251.5" y="193.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="251.5" x2="376.5" y1="219.5938" y2="219.5938"/><ellipse cx="357.5" cy="260.5313" fill="#FEFECE" rx="3" ry="3" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="366.5" cy="260.5313" fill="#FEFECE" rx="3" ry="3" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="360.5" x2="363.5" y1="260.5313" y2="260.5313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="267" y="211.292">Unconnected</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="256.5" y="235.7324">connectResp()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="256.5" y="249.7012">disconnected()</text></g><g id="api.Enabled.Connected"><rect fill="#FEFECE" filter="url(#f19civl48rnv38)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="107" x="39.5" y="443.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="39.5" x2="146.5" y1="469.5938" y2="469.5938"/><ellipse cx="127.5" cy="486.2969" fill="#FEFECE" rx="3" ry="3" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="136.5" cy="486.2969" fill="#FEFECE" rx="3" ry="3" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="130.5" x2="133.5" y1="486.2969" y2="486.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="54.5" y="461.292">Connected</text></g><!--MD5=[2e09971334b049b9876af5fba8582a90]
+link *start*Enabled to api.Enabled.choice--><path d="M240,64.4569 C240,72.9269 240,85.7069 240,95.9269 " fill="none" id="*start*Enabled-to-api.Enabled.choice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="240,101.0069,244,92.0069,240,96.0069,236,92.0069,240,101.0069" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c203d022744065e28ca7da46dfc86f9e]
+link api.Enabled.choice to api.Enabled.Unconnected--><path d="M248.81,116.7969 C260.48,120.5769 280.9,128.8869 292,143.2969 C301.8,156.0269 307.27,172.6369 310.3,187.8669 " fill="none" id="api.Enabled.choice-to-api.Enabled.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="311.24,192.9769,313.5263,183.3971,310.3255,188.0612,305.6613,184.8603,311.24,192.9769" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="184" x="308" y="163.8638">[avoidAutoconnect===true]</text><!--MD5=[d3491251675f40a84270b19162012f97]
+link api.Enabled.choice to api.Enabled.Connecting--><path d="M229.7,115.0069 C213.41,116.7369 182.07,122.7169 168,143.2969 C156.85,159.6069 156.96,182.0269 159.67,199.8869 " fill="none" id="api.Enabled.choice-to-api.Enabled.Connecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="160.58,205.2769,163.0325,195.7383,159.7511,200.3461,155.1433,197.0646,160.58,205.2769" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="210" y="156.3638">[else]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="185" y="171.4966">device.connect()</text><!--MD5=[3191aa347e447f7aac8b719ee4c9f410]
+link api.Enabled.Connecting to api.Enabled.WaitingAutoResp--><path d="M116.72,252.4169 C103.36,260.6269 90.56,271.4469 83,285.2969 C75.59,298.8769 75.65,316.3169 77.54,330.2569 " fill="none" id="api.Enabled.Connecting-to-api.Enabled.WaitingAutoResp" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="78.31,335.2269,80.8743,325.7177,77.539,330.2867,72.97,326.9513,78.31,335.2269" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="112.5" y="298.3638">connectResp()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="137" x="100" y="313.4966">app.AUTOCONNECT()</text><!--MD5=[e2e649f74e897f199aaae508acf6c044]
+link api.Enabled.WaitingAutoResp to api.Enabled.Connected--><path d="M84.72,375.3769 C86.27,392.5669 88.57,418.0869 90.35,437.8769 " fill="none" id="api.Enabled.WaitingAutoResp-to-api.Enabled.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="90.81,443.0369,93.998,433.7183,90.3676,438.0565,86.0294,434.4261,90.81,443.0369" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="91" y="413.8638">autoconnectResp()</text><!--MD5=[68300a307ccea7d4acc9c7a3d3f5e7e0]
+link api.Enabled.Connected to api.Enabled.WaitingDiscoResp--><path d="M88.4,493.5669 C86.81,509.0369 87.4,528.8269 97,543.2969 C100.81,549.0469 105.79,553.9269 111.38,558.0769 " fill="none" id="api.Enabled.Connected-to-api.Enabled.WaitingDiscoResp" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="115.75,561.1069,110.6195,552.6998,111.6365,558.2645,106.0718,559.2815,115.75,561.1069" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="118" y="524.3638">disconnected()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="114" y="539.4966">app.DISCONNECT()</text><!--MD5=[b7adcf90d9ef58e1573be8027307292d]
+link api.Enabled.WaitingDiscoResp to api.Enabled.Connecting--><path d="M220.79,561.1969 C227.67,556.3869 233.82,550.4769 238,543.2969 C295.64,444.1669 288.94,388.0269 238,285.2969 C232.82,274.8569 224.56,265.8869 215.46,258.4269 " fill="none" id="api.Enabled.WaitingDiscoResp-to-api.Enabled.Connecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="211.52,255.3269,216.1074,264.0421,215.4451,258.4242,221.0631,257.7619,211.52,255.3269" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="284" y="406.3638">disconnectResp()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="296" y="421.4966">device.connect()</text><!--MD5=[226d254e7ea8fb355498d5e8fc4c3b80]
+@startuml
+'left to right direction
+		
+		hide empty description
+		
+		
+
+		
+			state "Enabled" as Enabled {
+				
+			
+			
+						state api.Enabled.choice <<choice>>
+						
+						
+						
+						
+						
+							api.Enabled.Unconnected : connectResp()
+							api.Enabled.Unconnected : disconnected()
+						
+						state "Unconnected" as api.Enabled.Unconnected <<o-o>>  {
+							
+						}
+						
+						
+					
+						
+						
+						
+						
+							api.Enabled.Connecting : queryResp()
+						
+						state "Connecting" as api.Enabled.Connecting  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Connected" as api.Enabled.Connected <<o-o>>  {
+							
+						}
+						
+						
+					
+						
+						
+						
+						
+						
+						state "WaitingAutoResp" as api.Enabled.WaitingAutoResp  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "WaitingDiscoResp" as api.Enabled.WaitingDiscoResp  
+						
+						
+					
+			
+						[*] - -> api.Enabled.choice 
+						
+						api.Enabled.choice - -> api.Enabled.Unconnected : [avoidAutoconnect===true]
+						
+						api.Enabled.choice - -> api.Enabled.Connecting : [else]/\n    device.connect()
+						
+						api.Enabled.Connecting - -> api.Enabled.WaitingAutoResp : connectResp()/\n    app.AUTOCONNECT()
+						
+						api.Enabled.WaitingAutoResp - -> api.Enabled.Connected : autoconnectResp()
+						
+						api.Enabled.Connected - -> api.Enabled.WaitingDiscoResp : disconnected()/\n    app.DISCONNECT()
+						
+						api.Enabled.WaitingDiscoResp - -> api.Enabled.Connecting : disconnectResp()/\n    device.connect()
+						
+		
+			}
+@enduml
+
+@startuml
+		
+		hide empty description
+		
+		
+
+		
+			state "Enabled" as Enabled {
+				
+			
+			
+						state api.Enabled.choice <<choice>>
+						
+						
+						
+						
+						
+							api.Enabled.Unconnected : connectResp()
+							api.Enabled.Unconnected : disconnected()
+						
+						state "Unconnected" as api.Enabled.Unconnected <<o-o>>  {
+							
+						}
+						
+						
+					
+						
+						
+						
+						
+							api.Enabled.Connecting : queryResp()
+						
+						state "Connecting" as api.Enabled.Connecting  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Connected" as api.Enabled.Connected <<o-o>>  {
+							
+						}
+						
+						
+					
+						
+						
+						
+						
+						
+						state "WaitingAutoResp" as api.Enabled.WaitingAutoResp  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "WaitingDiscoResp" as api.Enabled.WaitingDiscoResp  
+						
+						
+					
+			
+						[*] - -> api.Enabled.choice 
+						
+						api.Enabled.choice - -> api.Enabled.Unconnected : [avoidAutoconnect===true]
+						
+						api.Enabled.choice - -> api.Enabled.Connecting : [else]/\n    device.connect()
+						
+						api.Enabled.Connecting - -> api.Enabled.WaitingAutoResp : connectResp()/\n    app.AUTOCONNECT()
+						
+						api.Enabled.WaitingAutoResp - -> api.Enabled.Connected : autoconnectResp()
+						
+						api.Enabled.Connected - -> api.Enabled.WaitingDiscoResp : disconnected()/\n    app.DISCONNECT()
+						
+						api.Enabled.WaitingDiscoResp - -> api.Enabled.Connecting : disconnectResp()/\n    device.connect()
+						
+		
+			}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 09:36:27 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

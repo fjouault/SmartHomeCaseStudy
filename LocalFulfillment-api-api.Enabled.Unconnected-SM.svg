@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="387px" preserveAspectRatio="none" style="width:506px;height:387px;" version="1.1" viewBox="0 0 506 387" width="506px" zoomAndPan="magnify"><defs><filter height="300%" id="f1njlrcl9yxshs" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1njlrcl9yxshs)" height="368.2969" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="487.41" x="7" y="7"/><rect fill="#FFFFFF" height="336" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="481.41" x="10" y="36.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="494.41" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="203.705" y="24.9951">Unconnected</text><rect fill="#FEFECE" filter="url(#f1njlrcl9yxshs)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="286.41" y="101.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="299.41" y="126.1436">Idle</text><rect fill="#FEFECE" filter="url(#f1njlrcl9yxshs)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="108" x="233.41" y="209.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="238.41" y="234.1436">QueryPending</text><rect fill="#FEFECE" filter="url(#f1njlrcl9yxshs)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="72" x="308.41" y="317.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="313.41" y="342.1436">Querying</text><ellipse cx="311.41" cy="54.2969" fill="#000000" filter="url(#f1njlrcl9yxshs)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><!--MD5=[14844cf545c354d5be9bbfb8e5cc2685]
+link *start*Unconnected to api.Enabled.Unconnected.Idle--><path d="M311.41,64.3369 C311.41,72.4869 311.41,84.8569 311.41,95.8969 " fill="none" id="*start*Unconnected-to-api.Enabled.Unconnected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="311.41,101.1869,315.41,92.1869,311.41,96.1869,307.41,92.1869,311.41,101.1869" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5357950e70fdb3cc001b50d80080f5e6]
+link api.Enabled.Unconnected.Idle to api.Enabled.Unconnected.QueryPending--><path d="M286.14,122.1269 C229.23,122.3569 93.73,126.3969 65.41,159.2969 C18,214.3669 147.09,226.1069 227.86,228.2269 " fill="none" id="api.Enabled.Unconnected.Idle-to-api.Enabled.Unconnected.QueryPending" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="233.11,228.3469,224.2038,224.1423,228.1113,228.2326,224.0209,232.1402,233.11,228.3469" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="102.91" y="172.3638">after(POLLING_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="206" x="82.41" y="187.4966">[willReportStateViaPoll===true]</text><!--MD5=[5357950e70fdb3cc001b50d80080f5e6]
+link api.Enabled.Unconnected.Idle to api.Enabled.Unconnected.QueryPending--><path d="M307.01,141.7369 C303.05,159.2169 297.22,184.9769 292.94,203.8469 " fill="none" id="api.Enabled.Unconnected.Idle-to-api.Enabled.Unconnected.QueryPending-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="291.78,208.9769,297.6641,201.0789,292.8813,204.0997,289.8606,199.3169,291.78,208.9769" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="304.41" y="179.8638">getStatus()</text><!--MD5=[500fe8c817fff0f57333404b768f8a42]
+link api.Enabled.Unconnected.QueryPending to api.Enabled.Unconnected.Querying--><path d="M283.11,249.3669 C280.86,263.9469 280.07,284.0569 288.41,299.2969 C292.14,306.1069 297.72,311.8769 303.93,316.6869 " fill="none" id="api.Enabled.Unconnected.QueryPending-to-api.Enabled.Unconnected.Querying" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="308.32,319.8669,303.3637,311.356,304.2659,316.9405,298.6814,317.8427,308.32,319.8669" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="301.41" y="280.3638">advertise()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="305.41" y="295.4966">app.QUERY()</text><!--MD5=[d0d6a1579e2c20dc30023feaf31896ea]
+link api.Enabled.Unconnected.Querying to api.Enabled.Unconnected.Idle--><path d="M373.66,317.2369 C379.23,312.1269 384.29,306.0969 387.41,299.2969 C413.37,242.7069 415.92,211.7669 382.41,159.2969 C373.2,144.8769 356.43,135.7669 341.51,130.1969 " fill="none" id="api.Enabled.Unconnected.Querying-to-api.Enabled.Unconnected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="336.53,128.4469,343.6942,135.2051,341.2471,130.105,346.3472,127.6578,336.53,128.4469" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="407.41" y="233.8638">queryResp()</text><!--MD5=[26e9bc7f7924a1114a929aded89e1559]
+@startuml
+'left to right direction
+		
+		hide empty description
+		
+		
+
+		
+			state "Unconnected" as Unconnected {
+				
+			
+			
+						
+						
+						
+						
+						
+						state "Idle" as api.Enabled.Unconnected.Idle  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "QueryPending" as api.Enabled.Unconnected.QueryPending  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Querying" as api.Enabled.Unconnected.Querying  
+						
+						
+					
+			
+						[*] - -> api.Enabled.Unconnected.Idle 
+						
+						api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]
+						
+						api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : getStatus()
+						
+						api.Enabled.Unconnected.QueryPending - -> api.Enabled.Unconnected.Querying : advertise()/\n    app.QUERY()
+						
+						api.Enabled.Unconnected.Querying - -> api.Enabled.Unconnected.Idle : queryResp()
+						
+		
+			}
+@enduml
+
+@startuml
+		
+		hide empty description
+		
+		
+
+		
+			state "Unconnected" as Unconnected {
+				
+			
+			
+						
+						
+						
+						
+						
+						state "Idle" as api.Enabled.Unconnected.Idle  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "QueryPending" as api.Enabled.Unconnected.QueryPending  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Querying" as api.Enabled.Unconnected.Querying  
+						
+						
+					
+			
+						[*] - -> api.Enabled.Unconnected.Idle 
+						
+						api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]
+						
+						api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : getStatus()
+						
+						api.Enabled.Unconnected.QueryPending - -> api.Enabled.Unconnected.Querying : advertise()/\n    app.QUERY()
+						
+						api.Enabled.Unconnected.Querying - -> api.Enabled.Unconnected.Idle : queryResp()
+						
+		
+			}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 09:36:27 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

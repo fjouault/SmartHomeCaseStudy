@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="294px" preserveAspectRatio="none" style="width:490px;height:294px;" version="1.1" viewBox="0 0 490 294" width="490px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xqjchnk91tz3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1xqjchnk91tz3)" height="275.2969" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="471.43" x="7" y="7"/><rect fill="#FFFFFF" height="243" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="465.43" x="10" y="36.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="478.43" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="204.215" y="24.9951">Connected</text><rect fill="#FEFECE" filter="url(#f1xqjchnk91tz3)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="126.43" y="101.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="139.43" y="126.1436">Idle</text><rect fill="#FEFECE" filter="url(#f1xqjchnk91tz3)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="72" x="115.43" y="224.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="120.43" y="249.1436">Querying</text><ellipse cx="151.43" cy="54.2969" fill="#000000" filter="url(#f1xqjchnk91tz3)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><!--MD5=[66bac412be1e0e2b392a79253a891385]
+link *start*Connected to api.Enabled.Connected.Idle--><path d="M151.43,64.3369 C151.43,72.4869 151.43,84.8569 151.43,95.8969 " fill="none" id="*start*Connected-to-api.Enabled.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="151.43,101.1869,155.43,92.1869,151.43,96.1869,147.43,92.1869,151.43,101.1869" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ca0f753d965a7fc2234ebfa66af208f]
+link api.Enabled.Connected.Idle to api.Enabled.Connected.Querying--><path d="M126.4,121.8769 C97.9,122.9269 52.44,129.5469 30.43,159.2969 C18,176.0869 18,189.5069 30.43,206.2969 C48.63,230.8969 82.86,239.6869 110.28,242.5769 " fill="none" id="api.Enabled.Connected.Idle-to-api.Enabled.Connected.Querying" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="115.32,243.0569,106.7228,238.2518,110.3409,242.6003,105.9924,246.2184,115.32,243.0569" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="41.43" y="179.8638">getStatus()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="47.43" y="194.9966">app.QUERY()</text><!--MD5=[6ca0f753d965a7fc2234ebfa66af208f]
+link api.Enabled.Connected.Idle to api.Enabled.Connected.Querying--><path d="M151.43,141.4669 C151.43,162.4469 151.43,196.1169 151.43,218.9469 " fill="none" id="api.Enabled.Connected.Idle-to-api.Enabled.Connected.Querying-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="151.43,224.2169,155.43,215.2169,151.43,219.2169,147.43,215.2169,151.43,224.2169" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="190.93" y="172.3638">after(POLLING_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="210" x="168.43" y="187.4966">[willReportStateViaPoll===true]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="232.93" y="202.6294">app.QUERY()</text><!--MD5=[183c3f1414a18ef1fc5a63a91451b7d3]
+link api.Enabled.Connected.Querying to api.Enabled.Connected.Idle--><path d="M187.52,242.9169 C245.67,241.4569 356.08,234.8869 380.43,206.2969 C393.97,190.3869 393.97,175.2069 380.43,159.2969 C355.26,129.7369 238.14,123.7169 181.82,122.5469 " fill="none" id="api.Enabled.Connected.Querying-to-api.Enabled.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="176.57,122.4469,185.4882,126.626,181.569,122.5469,185.6482,118.6276,176.57,122.4469" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="391.43" y="187.3638">queryResp()</text><!--MD5=[374757b2cfc081c2b64913bf11a5b7f4]
+@startuml
+'left to right direction
+		
+		hide empty description
+		
+		
+
+		
+			state "Connected" as Connected {
+				
+			
+			
+						
+						
+						
+						
+						
+						state "Idle" as api.Enabled.Connected.Idle  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Querying" as api.Enabled.Connected.Querying  
+						
+						
+					
+			
+						[*] - -> api.Enabled.Connected.Idle 
+						
+						api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : getStatus()/\n    app.QUERY()
+						
+						api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]/\n    app.QUERY()
+						
+						api.Enabled.Connected.Querying - -> api.Enabled.Connected.Idle : queryResp()
+						
+		
+			}
+@enduml
+
+@startuml
+		
+		hide empty description
+		
+		
+
+		
+			state "Connected" as Connected {
+				
+			
+			
+						
+						
+						
+						
+						
+						state "Idle" as api.Enabled.Connected.Idle  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Querying" as api.Enabled.Connected.Querying  
+						
+						
+					
+			
+						[*] - -> api.Enabled.Connected.Idle 
+						
+						api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : getStatus()/\n    app.QUERY()
+						
+						api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]/\n    app.QUERY()
+						
+						api.Enabled.Connected.Querying - -> api.Enabled.Connected.Idle : queryResp()
+						
+		
+			}
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 09:36:27 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

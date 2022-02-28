@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="779px" preserveAspectRatio="none" style="width:847px;height:779px;" version="1.1" viewBox="0 0 847 779" width="847px" zoomAndPan="magnify"><defs><filter height="300%" id="f1h2p12e5k753z" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c7be911a48ef37a8007f59a26d9fb923]
+cluster device.Connected--><rect fill="#FEFECE" filter="url(#f1h2p12e5k753z)" height="453" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="558" x="210.16" y="314"/><rect fill="#FFFFFF" height="420.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="552" x="213.16" y="343.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="210.16" x2="768.16" y1="340.2969" y2="340.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="450.66" y="330.9951">Connected</text><polygon fill="#FEFECE" filter="url(#f1h2p12e5k753z)" points="518.16,357,530.16,369,518.16,381,506.16,369,518.16,357" style="stroke:#A80036;stroke-width:1.5;"/><g id="device.Connected.device.Connected.Registered"><rect fill="#FEFECE" filter="url(#f1h2p12e5k753z)" height="106.1406" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="308" x="341.16" y="637"/><line style="stroke:#A80036;stroke-width:1.5;" x1="341.16" x2="649.16" y1="663.2969" y2="663.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="457.16" y="654.9951">Registered</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="133" x="346.16" y="679.4355">after(NOTIFY_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="272" x="362.16" y="693.4043">[!EP_CONTAINS(app, PARSE_NOTIFICATION)]/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="362.16" y="707.373">api.notify(data)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="161" x="346.16" y="721.3418">registerForNotifications()/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="214" x="362.16" y="735.3105">registerForNotificationsResp(true)</text></g><rect fill="#FEFECE" filter="url(#f1h2p12e5k753z)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="259.16" y="458"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="272.16" y="482.8467">Idle</text><ellipse cx="263.16" cy="369" fill="#000000" filter="url(#f1h2p12e5k753z)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><polygon fill="#FEFECE" filter="url(#f1h2p12e5k753z)" points="244.16,6,256.16,18,244.16,30,232.16,18,244.16,6" style="stroke:#A80036;stroke-width:1.5;"/><g id="device.Unconnected"><rect fill="#FEFECE" filter="url(#f1h2p12e5k753z)" height="106.1406" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="233" x="368.66" y="107"/><line style="stroke:#A80036;stroke-width:1.5;" x1="368.66" x2="601.66" y1="133.2969" y2="133.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="438.16" y="124.9951">Unconnected</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="158" x="373.66" y="149.4355">after(ADVERTISE_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="197" x="389.66" y="163.4043">[!EP_CONTAINS(api, advertise)]/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="91" x="389.66" y="177.373">api.advertise()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="373.66" y="191.3418">disconnect()/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="164" x="389.66" y="205.3105">app.disconnectResp(true)</text></g><ellipse cx="495.16" cy="18" fill="#000000" filter="url(#f1h2p12e5k753z)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><!--MD5=[fba01a2896b5954c6b35113306abbe2a]
+link *start*device.Connected to device.Connected.Idle--><path d="M258.22,377.97 C251.9,389.24 242.39,410.41 248.16,428 C251.16,437.14 256.58,445.98 262.32,453.58 " fill="none" id="*start*device.Connected-to-device.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="265.54,457.67,263.105,448.1269,262.4427,453.7449,256.8248,453.0826,265.54,457.67" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[db7a7f2f003f68a895bf52c778774e0b]
+link device.Connected.Idle to device.Connected.Registering--><path d="M309.44,476.05 C367.83,473.27 509.28,462.98 538.16,428 C549.88,413.81 536.67,392.35 526.84,379.9 " fill="none" id="device.Connected.Idle-to-device.Connected.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="523.42,375.75,526.0672,385.2364,526.604,379.6051,532.2354,380.142,523.42,375.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="543.16" y="424.0669">registerForNotifications()</text><!--MD5=[d88da5acae821865ed21f0737c5875f1]
+link device.Connected.Registering to device.Connected.Idle--><path d="M506.99,370.09 C463.61,370.69 307.28,375.33 277.16,411 C267.56,422.37 269.43,439.06 273.63,452.82 " fill="none" id="device.Connected.Registering-to-device.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="275.27,457.74,276.2098,447.9361,273.6846,452.998,268.6226,450.4728,275.27,457.74" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="278.16" y="424.0669">/app.registerForNotificationsResp(false)</text><!--MD5=[ab38e5c8fb3925ae77ab5aecfbf139a3]
+link device.Connected.Registering to device.Connected.Registered--><path d="M528.8,370.58 C565.68,372.82 686.95,382.31 710.16,411 C714.91,416.87 713.35,421.15 710.16,428 C680.99,490.62 635.92,475.38 591.16,528 C564.23,559.66 540.28,599.8 523.03,632.08 " fill="none" id="device.Connected.Registering-to-device.Connected.Registered" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="520.54,636.79,528.2843,630.7052,522.8781,632.3704,521.2129,626.9642,520.54,636.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="247" x="592.16" y="541.0669">/app.registerForNotificationsResp(true)</text><!--MD5=[ed6ed39a5c8583c439f735fd39e33c85]
+link *start to device.Unconnected--><path d="M494.5,28.19 C493.44,43.13 491.24,73.86 489.25,101.78 " fill="none" id="*start-to-device.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="488.88,106.96,493.5128,98.2688,489.2373,101.9728,485.5333,97.6972,488.88,106.96" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[29025216cc6819bb7ef5db55e1f488ea]
+link device.Unconnected to device.Connected--><path d="M397.96,213.07 C338.43,248.57 270,289.3 268.16,290 C250.39,296.73 239.09,284.07 226.16,298 C223.58,300.7788 221.5075,303.9109 219.8574,307.2702 C219.0324,308.9499 218.3129,310.6863 217.6885,312.4637 C217.5324,312.908 217.3822,313.3549 217.2378,313.8041 " fill="none" id="device.Unconnected-to-device.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="217.2378,313.8041,223.8002,306.4601,218.768,309.044,216.1841,304.0118,217.2378,313.8041" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="346.16" y="256.0669">connect()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="362.16" y="271.1997">api.connectResp();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="362.16" y="286.3325">nbDisconErrors = 0</text><!--MD5=[9790d218364c5297fb93fe169ffd7053]
+link device.Connected to device.disconnecting--><path d="M222.2324,313.3397 C222.4964,309.7982 222.7698,306.1293 223.0516,302.3468 C223.6153,294.7818 224.2129,286.7625 224.836,278.3991 C226.0823,261.6724 227.4309,243.5697 228.8163,224.9738 C234.3575,150.59 240.485,68.315 242.99,34.65 " fill="none" id="device.Connected-to-device.disconnecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="243.38,29.44,238.7224,38.118,243.0085,34.4262,246.7003,38.7123,243.38,29.44" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="239.16" y="164.5669">disconnect()</text><!--MD5=[0086a9ff2e2fd013e0991ca62677335c]
+link device.disconnecting to device.Connected--><path d="M233.5,19.55 C197.47,22.04 79.84,35.58 32.16,107 C6,146.18 12.18,170.34 32.16,213 C54.625,260.965 100.035,299.2625 140.3613,325.79 C160.5244,339.0538 179.4166,349.375 193.5342,356.4909 C197.0636,358.2699 200.2946,359.8486 203.1725,361.2228 C204.6114,361.9099 205.9621,362.5459 207.2176,363.1303 C207.8453,363.4225 208.4493,363.7017 209.0286,363.968 C209.3183,364.1012 209.6018,364.2311 209.879,364.3578 " fill="none" id="device.disconnecting-to-device.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="209.879,364.3578,203.3551,356.9795,205.3312,362.28,200.0307,364.2561,209.879,364.3578" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="102" x="33.16" y="142.0669">[nbDisconErrors</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="49.16" y="157.1997">&lt;MAX_DISCON_ERRORS]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="49.16" y="172.3325">app.disconnectResp(false);</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="49.16" y="187.4653">nbDisconErrors++</text><!--MD5=[ee5ce7be0ddb273c65499e512d398cdc]
+link device.disconnecting to device.Unconnected--><path d="M249.75,24.68 C260.87,35.77 286.89,60.64 312.16,77 C328.36,87.49 346.12,97.44 363.89,106.55 " fill="none" id="device.disconnecting-to-device.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="368.41,108.85,362.2074,101.1996,363.9551,106.5797,358.575,108.3274,368.41,108.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="313.16" y="73.0669">/app.disconnectResp(true)</text><!--MD5=[0ab87941bf11781f383ed88a64dba94f]
+link device.Unconnected to device.Connected.Registering--><path d="M493.49,213.23 C500.86,259.5 511.15,324.04 515.76,352.95 " fill="none" id="device.Unconnected-to-device.Connected.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="516.6,358.24,519.1332,348.7225,515.8128,353.3024,511.233,349.982,516.6,358.24" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="506.16" y="263.5669">registerForNotifications()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="533.16" y="278.6997">nbDisconErrors = 0</text><!--MD5=[e7ebfbf2f201cbe4015fc2bffc6f6b52]
+@startuml
+'left to right direction
+		
+		hide empty description
+		
+		
+
+		
+			
+			
+						state device.disconnecting <<choice>>
+						
+						
+						
+						
+						
+							device.Unconnected : after(ADVERTISE_PERIOD)\n    [!EP_CONTAINS(api, advertise)]/\n    api.advertise()
+							device.Unconnected : disconnect()/\n    app.disconnectResp(true)
+						
+						state "Unconnected" as device.Unconnected  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Connected" as device.Connected  {
+							
+			
+			
+						state device.Connected.Registering <<choice>>
+						
+						
+						
+						
+						
+							device.Connected.Registered : after(NOTIFY_PERIOD)\n    [!EP_CONTAINS(app, PARSE_NOTIFICATION)]/\n    api.notify(data)
+							device.Connected.Registered : registerForNotifications()/\n    registerForNotificationsResp(true)
+						
+						state "Registered" as device.Connected.Registered  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Idle" as device.Connected.Idle  
+						
+						
+					
+			
+						[*] - -> device.Connected.Idle 
+						
+						device.Connected.Idle - -> device.Connected.Registering : registerForNotifications()
+						
+						device.Connected.Registering - -> device.Connected.Idle : /app.registerForNotificationsResp(false)
+						
+						device.Connected.Registering - - - -> device.Connected.Registered : /app.registerForNotificationsResp(true)
+						
+		
+						}
+						
+						
+					
+			
+						[*] - -> device.Unconnected 
+						
+						device.Unconnected - -> device.Connected : connect()/\n    api.connectResp();\l    nbDisconErrors = 0
+						
+						device.Connected - -> device.disconnecting : disconnect()
+						
+						device.disconnecting - -> device.Connected : [nbDisconErrors\l    <MAX_DISCON_ERRORS]/\n    app.disconnectResp(false);\l    nbDisconErrors++
+						
+						device.disconnecting - -> device.Unconnected : /app.disconnectResp(true)
+						
+						device.Unconnected - -> device.Connected.Registering : registerForNotifications()/\n    nbDisconErrors = 0
+@enduml
+
+@startuml
+		
+		hide empty description
+		
+		
+
+		
+			
+			
+						state device.disconnecting <<choice>>
+						
+						
+						
+						
+						
+							device.Unconnected : after(ADVERTISE_PERIOD)\n    [!EP_CONTAINS(api, advertise)]/\n    api.advertise()
+							device.Unconnected : disconnect()/\n    app.disconnectResp(true)
+						
+						state "Unconnected" as device.Unconnected  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Connected" as device.Connected  {
+							
+			
+			
+						state device.Connected.Registering <<choice>>
+						
+						
+						
+						
+						
+							device.Connected.Registered : after(NOTIFY_PERIOD)\n    [!EP_CONTAINS(app, PARSE_NOTIFICATION)]/\n    api.notify(data)
+							device.Connected.Registered : registerForNotifications()/\n    registerForNotificationsResp(true)
+						
+						state "Registered" as device.Connected.Registered  
+						
+						
+					
+						
+						
+						
+						
+						
+						state "Idle" as device.Connected.Idle  
+						
+						
+					
+			
+						[*] - -> device.Connected.Idle 
+						
+						device.Connected.Idle - -> device.Connected.Registering : registerForNotifications()
+						
+						device.Connected.Registering - -> device.Connected.Idle : /app.registerForNotificationsResp(false)
+						
+						device.Connected.Registering - - - -> device.Connected.Registered : /app.registerForNotificationsResp(true)
+						
+		
+						}
+						
+						
+					
+			
+						[*] - -> device.Unconnected 
+						
+						device.Unconnected - -> device.Connected : connect()/\n    api.connectResp();\l    nbDisconErrors = 0
+						
+						device.Connected - -> device.disconnecting : disconnect()
+						
+						device.disconnecting - -> device.Connected : [nbDisconErrors\l    <MAX_DISCON_ERRORS]/\n    app.disconnectResp(false);\l    nbDisconErrors++
+						
+						device.disconnecting - -> device.Unconnected : /app.disconnectResp(true)
+						
+						device.Unconnected - -> device.Connected.Registering : registerForNotifications()/\n    nbDisconErrors = 0
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 09:36:27 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
