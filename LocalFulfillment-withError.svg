@@ -1,0 +1,1582 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="3294px" preserveAspectRatio="none" style="width:3293px;height:3294px;" version="1.1" viewBox="0 0 3293 3294" width="3293px" zoomAndPan="magnify"><defs/><g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><ellipse cx="1195.5" cy="59" fill="#FEFECE" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1195.5,67 L1195.5,94 M1182.5,75 L1208.5,75 M1195.5,94 L1182.5,109 M1195.5,94 L1208.5,109 " fill="none" style="stroke:#A80036;stroke-width:1.5;"/><a href="javascript:setSender('user')" target="_top" title="javascript:setSender('user')" xlink:actuate="onRequest" xlink:href="javascript:setSender('user')" xlink:show="new" xlink:title="javascript:setSender('user')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="1180" y="124.4951">user</text></a><path d="M1246.5,6 L1246.5,84.5 L1211.17,88.5 L1246.5,92.5 L1246.5,171 A0,0 0 0 0 1246.5,171 L1688.5,171 A0,0 0 0 0 1688.5,171 L1688.5,16 L1678.5,6 L1246.5,6 A0,0 0 0 0 1246.5,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1678.5,6 L1678.5,16 L1688.5,16 L1678.5,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><svg x="1252.5" y="11"><defs/><g><ellipse cx="193.5" cy="16" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="user.Waiting"><rect fill="#90EE90" height="64.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="221" x="194" y="86"/><line style="stroke:#A80036;stroke-width:1.5;" x1="194" x2="415" y1="112.2969" y2="112.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="279.5" y="103.9951">Waiting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="5" x="199" y="128.4355">[</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="187" x="204" y="128.4355">!EP_CONTAINS(api, getStatus)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="9" x="391" y="128.4355">]/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="215" y="142.4043">api.getStatus();</text></g><!--MD5=[d3205a9f76521bc38fb8da3805a4d581]
+link *start to user.Waiting--><path d="M200.444,23.255 C213.419,34.945 242.203,60.8766 266.216,82.5095 " fill="none" id="*start-to-user.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="270.025,85.9417,266.0163,76.9456,266.3104,82.5948,260.6612,82.8889,270.025,85.9417" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5e7af0b66ef4963c3b6e3220e442ca30]
+@startuml
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+								
+				note "Current pseudostate" as user.initNote #lightgreen
+				[*] - -> user.initNote
+								hide user.initNote
+							
+							
+							
+							
+							
+								user.Waiting : [<color:red><s>!EP_CONTAINS(api, getStatus)</s></color>]/\n    api.getStatus();
+							
+							state "Waiting" as user.Waiting #lightgreen 
+							
+							
+						
+				
+							[*] - -> user.Waiting 
+							
+			
+			
+		
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg><!--MD5=[1e281070be324fe4119de6bf55ec0dae]
+class api--><rect codeLine="53" fill="#FEFECE" height="130.7656" id="api" style="stroke:#A80036;stroke-width:1.5;" width="556" x="917.5" y="956"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="1170" y="972.1387">«active»</text><a href="javascript:setSender('api')" target="_top" title="javascript:setSender('api')" xlink:actuate="onRequest" xlink:href="javascript:setSender('api')" xlink:show="new" xlink:title="javascript:setSender('api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="19" x="1134" y="986.1074">api</text></a><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="1157" y="986.1074">: SmartHomeAPI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="918.5" x2="1472.5" y1="993.9375" y2="993.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="923.5" y="1008.1479">avoidAutoconnect = true</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="162" x="923.5" y="1020.9526">willReportStateViaPoll = true</text><line style="stroke:#A80036;stroke-width:1.0;" x1="918.5" x2="1472.5" y1="1027.5469" y2="1027.5469"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="923.5" y="1041.7573">+</text><a href="javascript:callOperation('api.identifyResp')" target="_top" title="javascript:callOperation('api.identifyResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.identifyResp')" xlink:show="new" xlink:title="javascript:callOperation('api.identifyResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="932.5" y="1041.7573">identifyResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="466" x="1001.5" y="1041.7573">(success : Boolean, avoidAutoconnect : Boolean, willReportStateViaPoll : Boolean)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="923.5" y="1054.562">+</text><a href="javascript:callOperation('api.queryResp')" target="_top" title="javascript:callOperation('api.queryResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.queryResp')" xlink:show="new" xlink:title="javascript:callOperation('api.queryResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="932.5" y="1054.562">queryResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="8" x="992.5" y="1054.562">()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="923.5" y="1067.3667">+</text><a href="javascript:callOperation('api.executeResp')" target="_top" title="javascript:callOperation('api.executeResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.executeResp')" xlink:show="new" xlink:title="javascript:callOperation('api.executeResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="932.5" y="1067.3667">executeResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="8" x="1004.5" y="1067.3667">()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="923.5" y="1080.1714">+</text><a href="javascript:callOperation('api.parseNotificationResp')" target="_top" title="javascript:callOperation('api.parseNotificationResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.parseNotificationResp')" xlink:show="new" xlink:title="javascript:callOperation('api.parseNotificationResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="932.5" y="1080.1714">parseNotificationResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="8" x="1056.5" y="1080.1714">()</text><path d="M1509,248 L1509,1017.5 L1473.7,1021.5 L1509,1025.5 L1509,1795 A0,0 0 0 0 1509,1795 L3286,1795 A0,0 0 0 0 3286,1795 L3286,258 L3276,248 L1509,248 A0,0 0 0 0 1509,248 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3276,248 L3276,258 L3286,258 L3276,248 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><svg x="1515" y="253"><defs/><g><polygon fill="#FEFECE" points="878.5,92,890.5,104,878.5,116,866.5,104,878.5,92" style="stroke:#A80036;stroke-width:1.5;"/><ellipse cx="161.5" cy="104" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="api.Idle"><rect fill="#FEFECE" height="64.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="92" x="194.5" y="764.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="194.5" x2="286.5" y1="790.7969" y2="790.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="228.5" y="782.4951">Idle</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="199.5" y="806.9355">getStatus()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="199.5" y="820.9043">advertise()</text></g><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1115.5" y="1492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="1120.5" y="1516.8467">Identifying</text><rect fill="#90EE90" height="1207.1719" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="1112.7853" x="322" y="193"/><rect fill="#FFFFFF" height="1114" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="1106.7853" x="325" y="283.1719"/><line style="stroke:#A80036;stroke-width:1.5;" x1="322" x2="1434.7853" y1="280.1719" y2="280.1719"/><line style="stroke:#A80036;stroke-width:1.5;" x1="322" x2="1434.7853" y1="219.2969" y2="219.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="850.3927" y="210.9951">Enabled</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="73" x="327" y="230.4355">notify(data)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="4" x="400" y="230.4355">/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="195" x="343" y="244.4043">app.PARSE_NOTIFICATION(data)</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="148" x="327" y="258.373">parseNotificationResp()</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="112" x="327" y="272.3418">reportState(data)</text><polygon fill="#FEFECE" points="1094,353.6719,1106,365.6719,1094,377.6719,1082,365.6719,1094,353.6719" style="stroke:#A80036;stroke-width:1.5;"/><ellipse cx="1200" cy="303.6719" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="api.Enabled.api.Enabled.Connecting"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="100" x="807" y="617.6719"/><line style="stroke:#A80036;stroke-width:1.5;" x1="807" x2="907" y1="643.9688" y2="643.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="817" y="635.667">Connecting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="812" y="660.1074">queryResp()</text></g><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="128" x="584" y="907.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="589" y="932.0186">WaitingAutoResp</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="135" x="715.5" y="1350.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="720.5" y="1375.0186">WaitingDiscoResp</text><rect fill="#90EE90" height="393.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="495.2853" x="925.5" y="446.1719"/><rect fill="#FFFFFF" height="328" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="489.2853" x="928.5" y="508.4063"/><line style="stroke:#A80036;stroke-width:1.5;" x1="925.5" x2="1420.7853" y1="505.4063" y2="505.4063"/><line style="stroke:#A80036;stroke-width:1.5;" x1="925.5" x2="1420.7853" y1="472.4688" y2="472.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="1126.1427" y="464.167">Unconnected</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="92" x="930.5" y="483.6074">connectResp()</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="95" x="930.5" y="497.5762">disconnected()</text><ellipse cx="1147.7853" cy="526.4063" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="1206.7853" y="573.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="1219.7853" y="598.2529">Idle</text><rect fill="#90EE90" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="108" x="1153.7853" y="681.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="1158.7853" y="706.2529">QueryPending</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="72" x="1228.7853" y="789.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="1233.7853" y="814.2529">Querying</text><!--MD5=[348f1f7765af699ee83a49d199f9571b]
+link *start*api.Enabled.Unconnected to api.Enabled.Unconnected.Idle--><path d="M1155.2393,533.1743 C1165.8263,541.3663 1185.8073,556.8283 1202.7003,569.9003 " fill="none" id="*start*api.Enabled.Unconnected-to-api.Enabled.Unconnected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1206.9213,573.1663,1202.2516,564.4948,1202.967,570.1062,1197.3556,570.8217,1206.9213,573.1663" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5357950e70fdb3cc001b50d80080f5e6]
+link api.Enabled.Unconnected.Idle to api.Enabled.Unconnected.QueryPending--><path d="M1206.7013,609.5873 C1203.4493,611.0843 1200.0963,612.4133 1196.7853,613.4063 C1151.7073,626.9183 1017.6153,596.7452 985.7851,631.4063 C936.5,685.0743 1067.1367,697.3633 1148.4373,699.9443 " fill="none" id="api.Enabled.Unconnected.Idle-to-api.Enabled.Unconnected.QueryPending" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1153.7193,700.1003,1144.8421,695.8346,1148.7215,699.9517,1144.6044,703.8311,1153.7193,700.1003" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="1023.2851" y="644.4731">after(POLLING_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="206" x="1002.7851" y="659.606">[willReportStateViaPoll===true]</text><!--MD5=[5357950e70fdb3cc001b50d80080f5e6]
+link api.Enabled.Unconnected.Idle to api.Enabled.Unconnected.QueryPending--><path d="M1227.3833,613.8483 C1223.4253,631.3303 1217.5933,657.0883 1213.3203,675.9603 " fill="none" id="api.Enabled.Unconnected.Idle-to-api.Enabled.Unconnected.QueryPending-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1212.1593,681.0873,1218.048,673.1928,1213.2635,676.2107,1210.2455,671.4261,1212.1593,681.0873" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="1224.7853" y="651.9731">getStatus()</text><!--MD5=[500fe8c817fff0f57333404b768f8a42]
+link api.Enabled.Unconnected.QueryPending to api.Enabled.Unconnected.Querying--><path d="M1203.4823,721.4783 C1201.2323,736.0548 1200.4463,756.1672 1208.7853,771.4063 C1212.5123,778.2168 1218.0923,783.9885 1224.3083,788.8008 " fill="none" id="api.Enabled.Unconnected.QueryPending-to-api.Enabled.Unconnected.Querying" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1228.6983,791.9801,1223.7553,783.4614,1224.6487,789.0473,1219.0629,789.9408,1228.6983,791.9801" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="69" x="1221.7853" y="752.4731">advertise()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="1290.7853" y="752.4731">/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1225.7853" y="767.606">app.QUERY()</text><!--MD5=[d0d6a1579e2c20dc30023feaf31896ea]
+link api.Enabled.Unconnected.Querying to api.Enabled.Unconnected.Idle--><path d="M1294.0363,789.3431 C1299.6063,784.2341 1304.6643,778.2094 1307.7853,771.4063 C1333.7473,714.8153 1336.2963,683.8802 1302.7853,631.4063 C1293.5773,616.9873 1276.8103,607.8802 1261.8813,602.3103 " fill="none" id="api.Enabled.Unconnected.Querying-to-api.Enabled.Unconnected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1256.9033,600.5543,1264.0609,607.3196,1261.6187,602.217,1266.7213,599.7749,1256.9033,600.5543" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="1328.7853" y="705.9731">queryResp()</text><rect fill="#FEFECE" height="267.2969" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="534.5" x="334" y="1015.1719"/><rect fill="#FFFFFF" height="235" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="528.5" x="337" y="1044.4688"/><line style="stroke:#A80036;stroke-width:1.5;" x1="334" x2="868.5" y1="1041.4688" y2="1041.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="562.75" y="1033.167">Connected</text><ellipse cx="457.5" cy="1062.4688" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="516.5" y="1109.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="529.5" y="1134.3154">Idle</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="72" x="505.5" y="1232.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="510.5" y="1257.3154">Querying</text><!--MD5=[abb8f527658a52c2f8a1a21e0d7a1295]
+link *start*api.Enabled.Connected to api.Enabled.Connected.Idle--><path d="M464.954,1069.2368 C475.541,1077.4288 495.522,1092.8908 512.416,1105.9628 " fill="none" id="*start*api.Enabled.Connected-to-api.Enabled.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="516.636,1109.2288,511.9663,1100.5573,512.6817,1106.1687,507.0703,1106.8842,516.636,1109.2288" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ca0f753d965a7fc2234ebfa66af208f]
+link api.Enabled.Connected.Idle to api.Enabled.Connected.Querying--><path d="M516.288,1145.2628 C513.058,1146.8268 509.745,1148.2778 506.5,1149.4688 C469.842,1162.9268 445.122,1137.1588 420.5,1167.4688 C407.3289,1183.682 408.0752,1197.6768 420.5,1214.4688 C438.7048,1239.0724 472.935,1247.8547 500.354,1250.7494 " fill="none" id="api.Enabled.Connected.Idle-to-api.Enabled.Connected.Querying" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="505.389,1251.2238,496.8049,1246.3955,500.4111,1250.7537,496.0528,1254.36,505.389,1251.2238" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="431.5" y="1188.0356">getStatus()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="437.5" y="1203.1685">app.QUERY()</text><!--MD5=[6ca0f753d965a7fc2234ebfa66af208f]
+link api.Enabled.Connected.Idle to api.Enabled.Connected.Querying--><path d="M541.5,1149.6418 C541.5,1170.6168 541.5,1204.2876 541.5,1227.1164 " fill="none" id="api.Enabled.Connected.Idle-to-api.Enabled.Connected.Querying-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="541.5,1232.3857,545.5,1223.3857,541.5,1227.3857,537.5,1223.3857,541.5,1232.3857" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="581" y="1180.5356">after(POLLING_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="210" x="558.5" y="1195.6685">[willReportStateViaPoll===true]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="623" y="1210.8013">app.QUERY()</text><!--MD5=[183c3f1414a18ef1fc5a63a91451b7d3]
+link api.Enabled.Connected.Querying to api.Enabled.Connected.Idle--><path d="M577.587,1251.0909 C635.743,1249.6318 746.155,1243.0631 770.5,1214.4688 C784.042,1198.5637 784.042,1183.3739 770.5,1167.4688 C745.335,1137.9118 628.208,1131.8888 571.894,1130.7158 " fill="none" id="api.Enabled.Connected.Querying-to-api.Enabled.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="566.64,1130.6168,575.563,1134.7858,571.6391,1130.711,575.7138,1126.7872,566.64,1130.6168" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="781.5" y="1195.5356">queryResp()</text><!--MD5=[a082938114fa8ade5b96bb21113a43b7]
+link *start*api.Enabled to api.Enabled.choice--><path d="M1191.682,309.3819 C1172.898,320.0119 1127.154,345.9019 1105.599,358.1019 " fill="none" id="*start*api.Enabled-to-api.Enabled.choice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1101.145,360.6319,1110.9483,359.6854,1105.4978,358.1715,1107.0117,352.721,1101.145,360.6319" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c203d022744065e28ca7da46dfc86f9e]
+link api.Enabled.choice to api.Enabled.Unconnected--><path d="M1096.539,375.5119 C1100.084,387.8519 1107.026,412.0159 1115.34,440.9569 " fill="none" id="api.Enabled.choice-to-api.Enabled.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1116.796,446.0259,1118.1539,436.2711,1115.4147,441.2205,1110.4653,438.4812,1116.796,446.0259" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="184" x="1113" y="416.7388">[avoidAutoconnect===true]</text><!--MD5=[d3491251675f40a84270b19162012f97]
+link api.Enabled.choice to api.Enabled.Connecting--><path d="M1083.674,367.6819 C1062.468,370.0919 1012.903,377.4319 976,396.1719 C945.049,411.8879 935.156,417.2239 916,446.1719 C881.361,498.5179 866.414,571.9699 860.49,612.2949 " fill="none" id="api.Enabled.choice-to-api.Enabled.Connecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="859.745,617.5219,864.9729,609.1751,860.4493,612.5717,857.0526,608.0482,859.745,617.5219" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="1018" y="409.2388">[else]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="993" y="424.3716">device.connect()</text><!--MD5=[3191aa347e447f7aac8b719ee4c9f410]
+link api.Enabled.Connecting to api.Enabled.WaitingAutoResp--><path d="M839.181,667.7579 C799.526,721.3579 704.411,849.9229 665.272,902.8259 " fill="none" id="api.Enabled.Connecting-to-api.Enabled.WaitingAutoResp" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="662.106,907.1049,670.6746,902.249,665.0799,903.0854,664.2434,897.4907,662.106,907.1049" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="728.5" y="870.2388">connectResp()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="137" x="716" y="885.3716">app.AUTOCONNECT()</text><!--MD5=[e2e649f74e897f199aaae508acf6c044]
+link api.Enabled.WaitingAutoResp to api.Enabled.Connected--><path d="M643.911,947.2669 C640.655,962.4729 635.775,985.2659 630.459,1010.0939 " fill="none" id="api.Enabled.WaitingAutoResp-to-api.Enabled.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="629.39,1015.0849,635.1863,1007.1223,630.4373,1010.1958,627.3638,1005.4467,629.39,1015.0849" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="641" y="985.7388">autoconnectResp()</text><!--MD5=[68300a307ccea7d4acc9c7a3d3f5e7e0]
+link api.Enabled.Connected to api.Enabled.WaitingDiscoResp--><path d="M697.833,1282.2899 C711.81,1299.5055 726.414,1316.5617 741,1332.1719 C745.547,1337.0379 750.669,1341.9502 755.733,1346.5352 " fill="none" id="api.Enabled.Connected-to-api.Enabled.WaitingDiscoResp" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="759.583,1349.9715,755.5326,1340.994,755.8529,1346.6418,750.2052,1346.9621,759.583,1349.9715" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="762" y="1313.2388">disconnected()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="758" y="1328.3716">app.DISCONNECT()</text><!--MD5=[b7adcf90d9ef58e1573be8027307292d]
+link api.Enabled.WaitingDiscoResp to api.Enabled.Connecting--><path d="M850.735,1356.3527 C863.033,1350.9143 874.364,1343.177 882,1332.1719 C957.331,1223.5979 883.993,789.5079 862.509,672.7269 " fill="none" id="api.Enabled.WaitingDiscoResp-to-api.Enabled.Connecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="861.586,667.7319,859.2879,677.3089,862.4945,672.6486,867.1547,675.8553,861.586,667.7319" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="913" y="978.2388">disconnectResp()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="925" y="993.3716">device.connect()</text><!--MD5=[1df80bbd8c2836b34324580d282062a0]
+link *start to api.Idle--><path d="M166.039,113.2 C170.283,121.28 176.418,134.11 179.5,146 C238.556,373.8 241.932,659.685 241.108,759.299 " fill="none" id="*start-to-api.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="241.06,764.466,245.1447,755.5041,241.1071,759.4662,237.145,755.4287,241.06,764.466" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a9592a5b510b630ab5a9802b68c4e431]
+link api.Idle to api.Identifying--><path d="M232.233,828.517 C207.892,927.591 147.606,1239.314 304.5,1400 C361.392,1458.2667 941.771,1497.9685 1110.02,1508.319 " fill="none" id="api.Idle-to-api.Identifying" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1115.35,1508.6457,1106.6062,1504.1129,1110.359,1508.3457,1106.1262,1512.0984,1115.35,1508.6457" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="581.5" y="1443.0669">advertise()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="579.5" y="1458.1997">app.IDENTIFY()</text><!--MD5=[e9895ce011f3255c28de8298e2e9c160]
+link api.Identifying to api.choice--><path d="M1195.54,1509.6065 C1262.04,1504.8721 1393.74,1484.6863 1452.5,1400 C1528.95,1289.813 1539.85,294.76 1452.5,193 C1377.64,105.79 980.841,104.12 894.918,104.8 " fill="none" id="api.Identifying-to-api.choice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="889.715,104.85,898.7501,108.7701,894.7148,104.8057,898.6792,100.7704,889.715,104.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="210" x="1514.5" y="786.0669">identifyResp(success, aa, wrsvp)/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="181" x="1530.5" y="801.1997">this.avoidAutoconnect = aa;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="219" x="1530.5" y="816.3325">this.willReportStateViaPoll = wrsvp</text><!--MD5=[be58a1f1c9cf4764ac61cb9cc17e9fb2]
+link api.choice to api.Enabled--><path d="M878.5,116.13 C878.5,129.63 878.5,154.73 878.5,187.58 " fill="none" id="api.choice-to-api.Enabled" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="878.5,192.92,882.5,183.92,878.5,187.92,874.5,183.92,878.5,192.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="879.5" y="159.0669">[success]</text><!--MD5=[a6a181664ee197a27476cc280eb5f935]
+link api.choice to api.Idle--><path d="M867.397,104.95 C794.566,104.84 385.606,108.05 304.5,193 C152.17,352.55 206.464,655.01 231.079,759.176 " fill="none" id="api.choice-to-api.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="232.299,764.28,234.0962,754.5965,231.1361,759.4171,226.3155,756.4571,232.299,764.28" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36" x="399.5" y="159.0669">[else]</text><!--MD5=[3bae26503e4742c4c1de277265d1be1e]
+@startuml
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state api.choice <<choice>>
+							
+				note "Current pseudostate" as api.choiceNote #lightgreen
+				api.choiceNote - -> api.choice
+								hide api.choiceNote
+							
+								
+				note "Current pseudostate" as api.initNote #lightgreen
+				[*] - -> api.initNote
+								hide api.initNote
+							
+							
+							
+							
+							
+								api.Idle : getStatus()
+								api.Idle : advertise()
+							
+							state "Idle" as api.Idle  
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled : <color:red><s>notify(data)</s></color>/\n    app.PARSE_NOTIFICATION(data)
+								api.Enabled : <color:red><s>parseNotificationResp()</s></color>
+								api.Enabled : <color:red><s>reportState(data)</s></color>
+							
+							state "Enabled" as api.Enabled #lightgreen {
+								
+				
+				
+							state api.Enabled.choice <<choice>>
+							
+				note "Current pseudostate" as api.Enabled.choiceNote #lightgreen
+				api.Enabled.choiceNote - -> api.Enabled.choice
+								hide api.Enabled.choiceNote
+							
+								
+				note "Current pseudostate" as api.Enabled.initNote #lightgreen
+				[*] - -> api.Enabled.initNote
+								hide api.Enabled.initNote
+							
+							
+							
+							
+							
+								api.Enabled.Unconnected : <color:red><s>connectResp()</s></color>
+								api.Enabled.Unconnected : <color:red><s>disconnected()</s></color>
+							
+							state "Unconnected" as api.Enabled.Unconnected #lightgreen {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Unconnected.initNote #lightgreen
+				[*] - -> api.Enabled.Unconnected.initNote
+								hide api.Enabled.Unconnected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Unconnected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "QueryPending" as api.Enabled.Unconnected.QueryPending #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Unconnected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Unconnected.Idle 
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : getStatus()
+							
+							api.Enabled.Unconnected.QueryPending - -> api.Enabled.Unconnected.Querying : <color:red><s>advertise()</s></color>/\n    app.QUERY()
+							
+							api.Enabled.Unconnected.Querying - -> api.Enabled.Unconnected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled.Connecting : queryResp()
+							
+							state "Connecting" as api.Enabled.Connecting  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as api.Enabled.Connected  {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Connected.initNote #lightgreen
+				[*] - -> api.Enabled.Connected.initNote
+								hide api.Enabled.Connected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Connected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Connected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Connected.Idle 
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : getStatus()/\n    app.QUERY()
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]/\n    app.QUERY()
+							
+							api.Enabled.Connected.Querying - -> api.Enabled.Connected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingAutoResp" as api.Enabled.WaitingAutoResp  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingDiscoResp" as api.Enabled.WaitingDiscoResp  
+							
+							
+						
+				
+							[*] - -> api.Enabled.choice 
+							
+							api.Enabled.choice - -> api.Enabled.Unconnected : [avoidAutoconnect===true]
+							
+							api.Enabled.choice - -> api.Enabled.Connecting : [else]/\n    device.connect()
+							
+							api.Enabled.Connecting - -> api.Enabled.WaitingAutoResp : connectResp()/\n    app.AUTOCONNECT()
+							
+							api.Enabled.WaitingAutoResp - -> api.Enabled.Connected : autoconnectResp()
+							
+							api.Enabled.Connected - -> api.Enabled.WaitingDiscoResp : disconnected()/\n    app.DISCONNECT()
+							
+							api.Enabled.WaitingDiscoResp - -> api.Enabled.Connecting : disconnectResp()/\n    device.connect()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Identifying" as api.Identifying  
+							
+							
+						
+				
+							[*] - -> api.Idle 
+							
+							api.Idle - -> api.Identifying : advertise()/\n    app.IDENTIFY()
+							
+							api.Identifying - -> api.choice : identifyResp(success, aa, wrsvp)/\n    this.avoidAutoconnect = aa;\l    this.willReportStateViaPoll = wrsvp
+							
+							api.choice - -> api.Enabled : [success]
+							
+							api.choice - -> api.Idle : [else]
+							
+			
+			
+		
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg><!--MD5=[d26137e5d461602f48e26353ca7979f6]
+class app--><rect codeLine="301" fill="#FEFECE" height="109.9609" id="app" style="stroke:#A80036;stroke-width:1.5;" width="295" x="7" y="2175"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="129" y="2191.1387">«active»</text><a href="javascript:setSender('app')" target="_top" title="javascript:setSender('app')" xlink:actuate="onRequest" xlink:href="javascript:setSender('app')" xlink:show="new" xlink:title="javascript:setSender('app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="124.5" y="2205.1074">app</text></a><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="152.5" y="2205.1074">: App</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="301" y1="2212.9375" y2="2212.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="13" y="2227.1479">+</text><a href="javascript:callOperation('app.IDENTIFY')" target="_top" title="javascript:callOperation('app.IDENTIFY')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.IDENTIFY')" xlink:show="new" xlink:title="javascript:callOperation('app.IDENTIFY')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="22" y="2227.1479">IDENTIFY</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="71" y="2227.1479">(request)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="13" y="2239.9526">+</text><a href="javascript:callOperation('app.QUERY')" target="_top" title="javascript:callOperation('app.QUERY')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.QUERY')" xlink:show="new" xlink:title="javascript:callOperation('app.QUERY')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="22" y="2239.9526">QUERY</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="60" y="2239.9526">(request)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="13" y="2252.7573">+</text><a href="javascript:callOperation('app.PARSE_NOTIFICATION')" target="_top" title="javascript:callOperation('app.PARSE_NOTIFICATION')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.PARSE_NOTIFICATION')" xlink:show="new" xlink:title="javascript:callOperation('app.PARSE_NOTIFICATION')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="22" y="2252.7573">PARSE_NOTIFICATION</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="142" y="2252.7573">(request)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="13" y="2265.562">+</text><a href="javascript:callOperation('app.disconnectResp')" target="_top" title="javascript:callOperation('app.disconnectResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.disconnectResp')" xlink:show="new" xlink:title="javascript:callOperation('app.disconnectResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="22" y="2265.562">disconnectResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="111" y="2265.562">(success : Boolean)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="9" x="13" y="2278.3667">+</text><a href="javascript:callOperation('app.registerForNotificationsResp')" target="_top" title="javascript:callOperation('app.registerForNotificationsResp')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.registerForNotificationsResp')" xlink:show="new" xlink:title="javascript:callOperation('app.registerForNotificationsResp')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161" x="22" y="2278.3667">registerForNotificationsResp</text></a><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="183" y="2278.3667">(success : Boolean)</text><path d="M337.5,1947 L337.5,2226 L302.267,2230 L337.5,2234 L337.5,2513 A0,0 0 0 0 337.5,2513 L1319.5,2513 A0,0 0 0 0 1319.5,2513 L1319.5,1957 L1309.5,1947 L337.5,1947 A0,0 0 0 0 337.5,1947 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1309.5,1947 L1309.5,1957 L1319.5,1957 L1309.5,1947 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><svg x="343.5" y="1952"><defs/><g><polygon fill="#FEFECE" points="536.1015,92,548.1015,104,536.1015,116,524.1015,104,536.1015,92" style="stroke:#A80036;stroke-width:1.5;"/><ellipse cx="189.1015" cy="228" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="app.Waiting"><rect fill="#90EE90" height="64.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="239" x="258.6015" y="325"/><line style="stroke:#A80036;stroke-width:1.5;" x1="258.6015" x2="497.6015" y1="351.2969" y2="351.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="353.1015" y="342.9951">Waiting</text><text fill="#FF0000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="63" x="263.6015" y="367.4355">IDENTIFY()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="4" x="326.6015" y="367.4355">/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="203" x="279.6015" y="381.4043">api.identifyResp(true, true, true)</text></g><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="89" x="115.6015" y="511"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="120.6015" y="535.8467">Registering</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="119" x="620.6015" y="511"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="625.6015" y="535.8467">Disconnecting1</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="119" x="476.6015" y="208"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="481.6015" y="232.8467">Disconnecting2</text><!--MD5=[c646245333a10c3430b28c86be5ef594]
+link *start to app.Waiting--><path d="M192.3665,237.924 C197.8965,251.894 210.3615,278.982 229.1015,295 C241.8105,305.863 256.7145,314.98 272.0935,322.573 " fill="none" id="*start-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="276.8795,324.881,270.5113,317.3679,272.3761,322.7086,267.0354,324.5733,276.8795,324.881" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="230.1015" y="291.0669">/this.prevData = 0;</text><!--MD5=[badaed935cda04f82ef2692f299e90d2]
+link app.Waiting to app.Registering--><path d="M258.3045,385.726 C252.4975,386.876 246.7395,387.974 241.1015,389 C193.2065,397.713 56.0803,382.296 24.1015,419 C6,439.776 8.2596,458.4535 24.1015,481 C43.4693,508.5647 79.9186,520.6945 110.2109,525.9972 " fill="none" id="app.Waiting-to-app.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="115.4015,526.8507,107.1697,521.4434,110.4677,526.0394,105.8717,529.3374,115.4015,526.8507" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="53" x="25.1015" y="439.5669">QUERY()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="78.1015" y="439.5669">/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="207" x="41.1015" y="454.6997">device.registerForNotifications();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="159" x="41.1015" y="469.8325">api.queryResp(prevData)</text><!--MD5=[e135e460e3c0981bdc767682235d9bea]
+link app.Registering to app.Waiting--><path d="M205.0435,512.5892 C221.4915,504.6928 239.4075,494.1418 253.1015,481 C276.0915,458.9371 267.4285,442.358 289.1015,419 C298.0995,409.302 308.9075,400.312 319.8405,392.378 " fill="none" id="app.Registering-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="324.1965,389.275,314.545,391.2368,320.1235,392.1751,319.1851,397.7536,324.1965,389.275" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="240" x="290.1015" y="454.5669">registerForNotificationsResp(success)</text><!--MD5=[4f1ae597f12f9376a7a21176deb8b410]
+link app.Waiting to app.Disconnecting1--><path d="M486.9795,389.127 C504.2215,397.094 520.9915,406.929 535.1015,419 C559.3145,439.713 547.4335,459.6656 571.1015,481 C583.8805,492.5192 599.8175,501.7171 615.5255,508.8888 " fill="none" id="app.Waiting-to-app.Disconnecting1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="620.3885,511.0498,613.7896,503.7385,615.8196,509.0186,610.5396,511.0487,620.3885,511.0498" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="176" x="572.1015" y="432.0669">PARSE_NOTIFICATION(data)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="748.1015" y="432.0669">/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="138" x="588.1015" y="447.1997">this.prevData = data;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="588.1015" y="462.3325">device.disconnect();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="588.1015" y="477.4653">api.parseNotificationResp()</text><!--MD5=[9b4cb4055313ac9043f4793dbdd548c1]
+link app.Disconnecting1 to app.disconnectionChoice--><path d="M732.6305,510.9069 C745.4965,503.6004 757.6875,493.8312 765.1015,481 C841.6315,348.547 795.0705,253.361 686.1015,146 C649.3495,109.791 583.8785,104.794 553.0465,104.588 " fill="none" id="app.Disconnecting1-to-app.disconnectionChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="547.7075,104.599,556.7155,108.581,552.7075,104.589,556.6995,100.581,547.7075,104.599" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="793.1015" y="291.0669">disconnectResp(success)</text><!--MD5=[ebc9812a29e83a42213b749716897381]
+link app.disconnectionChoice to app.Waiting--><path d="M527.9755,108.187 C503.2055,118.377 428.3725,152.766 396.1015,208 C376.2285,242.014 373.6235,287.894 374.7775,319.51 " fill="none" id="app.disconnectionChoice-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="375.0135,324.848,378.6135,315.6807,374.7934,319.8528,370.6213,316.0327,375.0135,324.848" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="397.1015" y="232.5669">[success]</text><!--MD5=[d2be2575b30767e99aec33cfa7460286]
+link app.disconnectionChoice to app.Disconnecting2--><path d="M536.1015,116.259 C536.1015,135.836 536.1015,176.562 536.1015,202.794 " fill="none" id="app.disconnectionChoice-to-app.Disconnecting2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="536.1015,207.837,540.1015,198.837,536.1015,202.837,532.1015,198.837,536.1015,207.837" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="587.1015" y="159.0669">[else]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="553.1015" y="174.1997">device.disconnect()</text><!--MD5=[4d2605e188b41542478ddc35331635ad]
+link app.Disconnecting2 to app.Waiting--><path d="M512.4475,248.013 C488.3075,267.417 450.3125,297.957 420.8795,321.615 " fill="none" id="app.Disconnecting2-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="416.9685,324.759,426.4897,322.2398,420.8661,321.6272,421.4788,316.0036,416.9685,324.759" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="473.1015" y="291.0669">disconnectResp(success)</text><!--MD5=[45d4ae8295b539353657e8eaa15488eb]
+@startuml
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state app.disconnectionChoice <<choice>>
+							
+				note "Current pseudostate" as app.disconnectionChoiceNote #lightgreen
+				app.disconnectionChoiceNote - -> app.disconnectionChoice
+								hide app.disconnectionChoiceNote
+							
+								
+				note "Current pseudostate" as app.initNote #lightgreen
+				[*] - -> app.initNote
+								hide app.initNote
+							
+							
+							
+							
+							
+								app.Waiting : <color:red><s>IDENTIFY()</s></color>/\n    api.identifyResp(true, true, true)
+							
+							state "Waiting" as app.Waiting #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Registering" as app.Registering  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting1" as app.Disconnecting1  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting2" as app.Disconnecting2  
+							
+							
+						
+				
+							[*] - -> app.Waiting : /this.prevData = 0;
+							
+							app.Waiting - -> app.Registering : <color:red><s>QUERY()</s></color>/\n    device.registerForNotifications();\l    api.queryResp(prevData)
+							
+							app.Registering - -> app.Waiting : registerForNotificationsResp(success)
+							
+							app.Waiting - -> app.Disconnecting1 : <color:red><s>PARSE_NOTIFICATION(data)</s></color>/\n    this.prevData = data;\l    device.disconnect();\l    api.parseNotificationResp()
+							
+							app.Disconnecting1 - -> app.disconnectionChoice : disconnectResp(success)
+							
+							app.disconnectionChoice - -> app.Waiting : [success]
+							
+							app.disconnectionChoice - -> app.Disconnecting2 : [else]/\n    device.disconnect()
+							
+							app.Disconnecting2 - -> app.Waiting : disconnectResp(success)
+							
+			
+			
+		
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg><!--MD5=[002537d386d1f68a9aa978f7fb49d1b7]
+entity device--><ellipse cx="1182.5" cy="2916.5" fill="#FEFECE" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1182.5,2924.5 L1182.5,2951.5 M1169.5,2932.5 L1195.5,2932.5 M1182.5,2951.5 L1169.5,2966.5 M1182.5,2951.5 L1195.5,2966.5 " fill="none" style="stroke:#A80036;stroke-width:1.5;"/><a href="javascript:setSender('device')" target="_top" title="javascript:setSender('device')" xlink:actuate="onRequest" xlink:href="javascript:setSender('device')" xlink:show="new" xlink:title="javascript:setSender('device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="45" x="1103" y="2981.9951">device</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="1152" y="2981.9951">: LYWSD03MMC</text><path d="M1297,2605 L1297,2942 L1262.09,2946 L1297,2950 L1297,3287 A0,0 0 0 0 1297,3287 L2766,3287 A0,0 0 0 0 2766,3287 L2766,2615 L2756,2605 L1297,2605 A0,0 0 0 0 1297,2605 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2756,2605 L2756,2615 L2766,2615 L2756,2605 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><svg x="1303" y="2610"><defs/><g><!--MD5=[c7be911a48ef37a8007f59a26d9fb923]
+cluster device.Connected--><rect fill="#90EE90" height="431.5" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="847" x="595.5" y="235.5"/><rect fill="#FFFFFF" height="399.2031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="841" x="598.5" y="264.7969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="595.5" x2="1442.5" y1="261.7969" y2="261.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="980.5" y="252.4951">Connected</text><polygon fill="#FEFECE" points="795.5,436,807.5,448,795.5,460,783.5,448,795.5,436" style="stroke:#A80036;stroke-width:1.5;"/><ellipse cx="637.5" cy="448" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="device.Connected.device.Connected.Registered"><rect fill="#FEFECE" height="106.1406" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="308" x="1015.5" y="537"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1015.5" x2="1323.5" y1="563.2969" y2="563.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="1131.5" y="554.9951">Registered</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="133" x="1020.5" y="579.4355">after(NOTIFY_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="272" x="1036.5" y="593.4043">[!EP_CONTAINS(app, PARSE_NOTIFICATION)]/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="1036.5" y="607.373">api.notify(data)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="161" x="1020.5" y="621.3418">registerForNotifications()/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="214" x="1036.5" y="635.3105">registerForNotificationsResp(true)</text></g><rect fill="#90EE90" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="816.5" y="570"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="829.5" y="594.8467">Idle</text><polygon fill="#FEFECE" points="520.5,92,532.5,104,520.5,116,508.5,104,520.5,92" style="stroke:#A80036;stroke-width:1.5;"/><ellipse cx="135.5" cy="104" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="device.Unconnected"><rect fill="#FEFECE" height="106.1406" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="233" x="194" y="238"/><line style="stroke:#A80036;stroke-width:1.5;" x1="194" x2="427" y1="264.2969" y2="264.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="263.5" y="255.9951">Unconnected</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="158" x="199" y="280.4355">after(ADVERTISE_PERIOD)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="197" x="215" y="294.4043">[!EP_CONTAINS(api, advertise)]/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="91" x="215" y="308.373">api.advertise()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="199" y="322.3418">disconnect()/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="164" x="215" y="336.3105">app.disconnectResp(true)</text></g><!--MD5=[83020994a077ae0106121aebbff2fe12]
+link *start*device.Connected to device.Connected.initNote--><!--MD5=[fba01a2896b5954c6b35113306abbe2a]
+link *start*device.Connected to device.Connected.Idle--><path d="M638.447,457.965 C640.302,470.835 645.633,494.384 660.5,507 C708.358,547.61 744.891,504.356 798.5,537 C810.056,544.037 819.938,555.309 827.303,565.562 " fill="none" id="*start*device.Connected-to-device.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="830.304,569.879,828.451,560.206,827.4499,565.7736,821.8824,564.7725,830.304,569.879" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[db7a7f2f003f68a895bf52c778774e0b]
+link device.Connected.Idle to device.Connected.Registering--><path d="M830.242,569.979 C822.643,558.753 811.62,545.184 798.5,537 C750.024,506.763 708.872,551.866 673.5,507 C643.607,469.084 740.696,454.641 779.862,450.439 " fill="none" id="device.Connected.Idle-to-device.Connected.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="785.198,449.892,775.837,446.8308,780.2241,450.402,776.6529,454.7891,785.198,449.892" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="158" x="674.5" y="503.0669">registerForNotifications()</text><!--MD5=[d88da5acae821865ed21f0737c5875f1]
+link device.Connected.Registering to device.Connected.Idle--><path d="M802.434,453.265 C812.306,459.781 830.039,473.244 837.5,490 C848.079,513.758 847.557,543.983 845.357,564.751 " fill="none" id="device.Connected.Registering-to-device.Connected.Idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="844.768,569.817,849.7827,561.3404,845.3467,564.8506,841.8365,560.4146,844.768,569.817" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="844.5" y="503.0669">/app.registerForNotificationsResp(false)</text><!--MD5=[ab38e5c8fb3925ae77ab5aecfbf139a3]
+link device.Connected.Registering to device.Connected.Registered--><path d="M806.372,449.25 C855.091,450.549 1053.18,457.76 1104.5,490 C1120.81,500.247 1133.89,516.254 1143.92,532.432 " fill="none" id="device.Connected.Registering-to-device.Connected.Registered" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1146.67,536.995,1145.4575,527.2211,1144.0923,532.7107,1138.6026,531.3454,1146.67,536.995" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="247" x="1124.5" y="503.0669">/app.registerForNotificationsResp(true)</text><!--MD5=[ed6ed39a5c8583c439f735fd39e33c85]
+link *start to device.Unconnected--><path d="M142.147,112.026 C160.911,131.863 215.657,189.738 257.676,234.158 " fill="none" id="*start-to-device.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="261.189,237.871,257.9111,228.5836,257.7534,234.2383,252.0988,234.0806,261.189,237.871" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[29025216cc6819bb7ef5db55e1f488ea]
+link device.Unconnected to device.Connected--><path d="M427.143,291 C466.082,291 507.96,291 541.1323,291 C557.7184,291 572.1281,291 582.9057,291 C585.6001,291 588.0675,291 590.2852,291 C591.394,291 592.4404,291 593.4216,291 C593.9121,291 594.3864,291 594.8439,291 C594.9583,291 595.0717,291 595.184,291 " fill="none" id="device.Unconnected-to-device.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="595.184,291,586.184,287,590.184,291,586.184,295,595.184,291" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="445.07" y="254.0669">connect()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="461.07" y="269.1997">api.connectResp();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="461.07" y="284.3325">nbDisconErrors = 0</text><!--MD5=[9790d218364c5297fb93fe169ffd7053]
+link device.Connected to device.disconnecting--><path d="M602.0957,235.4512 C602.1322,235.3387 602.1692,235.2264 602.2065,235.1143 C602.3557,234.6658 602.5111,234.2199 602.6727,233.7769 C603.3191,232.0047 604.0657,230.278 604.9238,228.6133 C606.6399,225.2838 608.8019,222.2023 611.5,219.5 C643.11,187.842 681.728,241.392 711.5,208 C729.838,187.432 728.82,167.432 711.5,146 C689.467,118.735 578.476,108.769 536.56,105.942 " fill="none" id="device.Connected-to-device.disconnecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="531.346,105.604,540.0677,110.1792,536.3355,105.9283,540.5865,102.1961,531.346,105.604" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#FF0000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" text-decoration="line-through" textLength="79" x="726.5" y="181.5669">disconnect()</text><!--MD5=[0086a9ff2e2fd013e0991ca62677335c]
+link device.disconnecting to device.Connected--><path d="M517.47,113.193 C511.312,131.232 499.089,175.374 513.5,208 C524.2615,232.363 546.232,252.608 565.7708,266.8868 C575.5401,274.0261 584.7016,279.6739 591.55,283.5992 C592.406,284.0898 593.2259,284.5535 594.0064,284.9899 C594.3966,285.2081 594.7769,285.4194 595.147,285.6239 C595.2395,285.675 595.3314,285.7257 595.4226,285.7759 " fill="none" id="device.disconnecting-to-device.Connected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="595.4226,285.7759,589.4693,277.9301,591.0431,283.3636,585.6095,284.9374,595.4226,285.7759" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="102" x="514.5" y="159.0669">[nbDisconErrors</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="530.5" y="174.1997">&lt;MAX_DISCON_ERRORS]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="530.5" y="189.3325">app.disconnectResp(false);</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="530.5" y="204.4653">nbDisconErrors++</text><!--MD5=[ee5ce7be0ddb273c65499e512d398cdc]
+link device.disconnecting to device.Unconnected--><path d="M509.787,105.719 C473.238,108.4 354.34,119.082 329.5,146 C308.323,168.949 303.188,203.392 303.53,232.838 " fill="none" id="device.disconnecting-to-device.Unconnected" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="303.643,237.895,307.4414,228.8081,303.5316,232.8962,299.4434,228.9864,303.643,237.895" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="330.5" y="181.5669">/app.disconnectResp(true)</text><!--MD5=[0ab87941bf11781f383ed88a64dba94f]
+link device.Unconnected to device.Connected.Registering--><path d="M427.215,338.14 C485.622,360.297 557.724,386.254 623.5,406 C681.072,423.283 751.202,438.114 780.995,444.133 " fill="none" id="device.Unconnected-to-device.Connected.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="786.077,445.153,778.0407,439.4593,781.1749,444.1686,776.4656,447.3027,786.077,445.153" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="624.5" y="387.0669">registerForNotifications()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="651.5" y="402.1997">nbDisconErrors = 0</text><!--MD5=[d5c086dfb2550b84ec34c13b896530c7]
+@startuml
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state device.disconnecting <<choice>>
+							
+				note "Current pseudostate" as device.disconnectingNote #lightgreen
+				device.disconnectingNote - -> device.disconnecting
+								hide device.disconnectingNote
+							
+								
+				note "Current pseudostate" as device.initNote #lightgreen
+				[*] - -> device.initNote
+								hide device.initNote
+							
+							
+							
+							
+							
+								device.Unconnected : after(ADVERTISE_PERIOD)\n    [!EP_CONTAINS(api, advertise)]/\n    api.advertise()
+								device.Unconnected : disconnect()/\n    app.disconnectResp(true)
+							
+							state "Unconnected" as device.Unconnected  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as device.Connected #lightgreen {
+								
+				
+				
+							state device.Connected.Registering <<choice>>
+							
+				note "Current pseudostate" as device.Connected.RegisteringNote #lightgreen
+				device.Connected.RegisteringNote - -> device.Connected.Registering
+								hide device.Connected.RegisteringNote
+							
+								
+				note "Current pseudostate" as device.Connected.initNote #lightgreen
+				[*] - -> device.Connected.initNote
+								hide device.Connected.initNote
+							
+							
+							
+							
+							
+								device.Connected.Registered : after(NOTIFY_PERIOD)\n    [!EP_CONTAINS(app, PARSE_NOTIFICATION)]/\n    api.notify(data)
+								device.Connected.Registered : registerForNotifications()/\n    registerForNotificationsResp(true)
+							
+							state "Registered" as device.Connected.Registered  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Idle" as device.Connected.Idle #lightgreen 
+							
+							
+						
+				
+							[*] - -> device.Connected.Idle 
+							
+							device.Connected.Idle - -> device.Connected.Registering : <color:red><s>registerForNotifications()</s></color>
+							
+							device.Connected.Registering - -> device.Connected.Idle : /app.registerForNotificationsResp(false)
+							
+							device.Connected.Registering - -> device.Connected.Registered : /app.registerForNotificationsResp(true)
+							
+			
+							}
+							
+							
+						
+				
+							[*] - -> device.Unconnected 
+							
+							device.Unconnected - -> device.Connected : connect()/\n    api.connectResp();\l    nbDisconErrors = 0
+							
+							device.Connected - -> device.disconnecting : <color:red><s>disconnect()</s></color>
+							
+							device.disconnecting - -> device.Connected : [nbDisconErrors\l    <MAX_DISCON_ERRORS]/\n    app.disconnectResp(false);\l    nbDisconErrors++
+							
+							device.disconnecting - -> device.Unconnected : /app.disconnectResp(true)
+							
+							device.Unconnected - -> device.Connected.Registering : registerForNotifications()/\n    nbDisconErrors = 0
+							
+			
+			
+		
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg><!--MD5=[171bbbeb97f5c35b5c0d3208ac28312a]
+link user to api--><path codeLine="505" d="M1195.5,127.73 C1195.5,270.76 1195.5,775.3 1195.5,955.74 " fill="none" id="user-api" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1200.5,214.5664,1203.4389,205.5213,1197.5611,205.5213,1200.5,214.5664" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('api.query','user')" target="_top" title="javascript:callOperation('api.query','user')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.query','user')" xlink:show="new" xlink:title="javascript:callOperation('api.query','user')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36" x="1209.5" y="214.0669">query</text></a><!--MD5=[507397596a6af31457158c510808ed58]
+link api to app--><path codeLine="506" d="M1124.3,1087.05 C967.442,1231.4 585.047,1595.35 320.5,1947 C264.489,2021.45 212.116,2116.25 181.706,2174.76 " fill="none" id="api-app" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#000000" points="442.7255,1844.845,450.8701,1839.9341,446.4281,1836.0848,442.7255,1844.845" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('app.IDENTIFY','api')" target="_top" title="javascript:callOperation('app.IDENTIFY','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.IDENTIFY','api')" xlink:show="new" xlink:title="javascript:callOperation('app.IDENTIFY','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="454" y="1845.5669">IDENTIFY</text></a><a href="javascript:callOperation('app.QUERY','api')" target="_top" title="javascript:callOperation('app.QUERY','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.QUERY','api')" xlink:show="new" xlink:title="javascript:callOperation('app.QUERY','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="453.5" y="1860.6997">QUERY</text></a><a href="javascript:callOperation('app.PARSE_NOTIFICATION','api')" target="_top" title="javascript:callOperation('app.PARSE_NOTIFICATION','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.PARSE_NOTIFICATION','api')" xlink:show="new" xlink:title="javascript:callOperation('app.PARSE_NOTIFICATION','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="137" x="406.5" y="1875.8325">PARSE_NOTIFICATION</text></a><a href="javascript:callOperation('app.AUTOCONNECT','api')" target="_top" title="javascript:callOperation('app.AUTOCONNECT','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.AUTOCONNECT','api')" xlink:show="new" xlink:title="javascript:callOperation('app.AUTOCONNECT','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="425.5" y="1890.9653">AUTOCONNECT</text></a><a href="javascript:callOperation('app.DISCONNECT','api')" target="_top" title="javascript:callOperation('app.DISCONNECT','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.DISCONNECT','api')" xlink:show="new" xlink:title="javascript:callOperation('app.DISCONNECT','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="432.5" y="1906.0981">DISCONNECT</text></a><!--MD5=[507397596a6af31457158c510808ed58]
+link api to app--><path codeLine="507" d="M1170.71,1087.2 C1102.03,1256.71 891.636,1714.6 552.5,1917 C463.221,1970.28 407.256,1889.7 320.5,1947 C239.081,2000.77 192.193,2109.32 170.149,2174.95 " fill="none" id="api-app-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="706.385,1829.8865,698.0985,1834.5539,702.4245,1838.5332,706.385,1829.8865" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('api.identifyResp','app')" target="_top" title="javascript:callOperation('api.identifyResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.identifyResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.identifyResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="711" y="1838.0669">identifyResp</text></a><a href="javascript:callOperation('api.queryResp','app')" target="_top" title="javascript:callOperation('api.queryResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.queryResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.queryResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="709.5" y="1853.1997">queryResp</text></a><a href="javascript:callOperation('api.executeResp','app')" target="_top" title="javascript:callOperation('api.executeResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.executeResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.executeResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="82" x="702" y="1868.3325">executeResp</text></a><a href="javascript:callOperation('api.parseNotificationResp','app')" target="_top" title="javascript:callOperation('api.parseNotificationResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.parseNotificationResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.parseNotificationResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="139" x="673.5" y="1883.4653">parseNotificationResp</text></a><a href="javascript:callOperation('api.autoconnectResp','app')" target="_top" title="javascript:callOperation('api.autoconnectResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.autoconnectResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.autoconnectResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="111" x="687.5" y="1898.5981">autoconnectResp</text></a><a href="javascript:callOperation('api.disconnectResp','app')" target="_top" title="javascript:callOperation('api.disconnectResp','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.disconnectResp','app')" xlink:show="new" xlink:title="javascript:callOperation('api.disconnectResp','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="693" y="1913.731">disconnectResp</text></a><!--MD5=[f43684c54798c25337a24a79c38f4757]
+link app to device--><path codeLine="508" d="M175.259,2285.23 C201.222,2347.047 250.878,2447.923 320.5,2513 C560.494,2737.327 939.107,2871.592 1102.77,2922.046 " fill="none" id="app-device" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#000000" points="422.622,2554.3965,416.8287,2546.854,413.5018,2551.6997,422.622,2554.3965" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('device.disconnect','app')" target="_top" title="javascript:callOperation('device.disconnect','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('device.disconnect','app')" xlink:show="new" xlink:title="javascript:callOperation('device.disconnect','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="69" x="426.5" y="2556.0669">disconnect</text></a><a href="javascript:callOperation('device.registerForNotifications','app')" target="_top" title="javascript:callOperation('device.registerForNotifications','app')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('device.registerForNotifications','app')" xlink:show="new" xlink:title="javascript:callOperation('device.registerForNotifications','app')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="380.5" y="2571.1997">registerForNotifications</text></a><!--MD5=[f43684c54798c25337a24a79c38f4757]
+link app to device--><path codeLine="509" d="M170.322,2285.22 C192.485,2350.758 239.436,2458.95 320.5,2513 C401.506,2567.012 445.953,2509.856 537.5,2543 C783.773,2632.161 1035.92,2824.747 1136.77,2906.763 " fill="none" id="app-device-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="648.2946,2548.8618,654.3125,2556.2263,657.4919,2551.2826,648.2946,2548.8618" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('app.disconnectResp','device')" target="_top" title="javascript:callOperation('app.disconnectResp','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.disconnectResp','device')" xlink:show="new" xlink:title="javascript:callOperation('app.disconnectResp','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="660.5" y="2556.0669">disconnectResp</text></a><a href="javascript:callOperation('app.registerForNotificationsResp','device')" target="_top" title="javascript:callOperation('app.registerForNotificationsResp','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('app.registerForNotificationsResp','device')" xlink:show="new" xlink:title="javascript:callOperation('app.registerForNotificationsResp','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="614.5" y="2571.1997">registerForNotificationsResp</text></a><!--MD5=[6fba299f168211a18ba94b684453832b]
+link api to device--><path codeLine="510" d="M1218.43,1087.28 C1289.41,1297.69 1491.72,1979.21 1337.5,2513 C1324.08,2559.437 1299.22,2560.869 1279.5,2605 C1232.74,2709.66 1202.58,2842.557 1189.69,2906.798 " fill="none" id="api-device" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#000000" points="1398.421,2235.0658,1401.5024,2226.0682,1395.6253,2225.9754,1398.421,2235.0658" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('device.connect','api')" target="_top" title="javascript:callOperation('device.connect','api')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('device.connect','api')" xlink:show="new" xlink:title="javascript:callOperation('device.connect','api')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="1407.5" y="2234.5669">connect</text></a><!--MD5=[6fba299f168211a18ba94b684453832b]
+link api to device--><path codeLine="511" d="M1221.57,1087.2 C1279.91,1235.94 1419.67,1614.98 1467.5,1947 C1503.37,2195.99 1600.66,2299.581 1467.5,2513 C1455.19,2532.73 1294.42,2587.165 1279.5,2605 C1204.55,2694.559 1187.43,2838.784 1183.58,2906.96 " fill="none" id="api-device-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1547.1044,2202.5675,1543.9773,2211.5493,1549.8539,2211.672,1547.1044,2202.5675" style="stroke:#000000;stroke-width:1.0;"/><a href="javascript:callOperation('api.advertise','device')" target="_top" title="javascript:callOperation('api.advertise','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.advertise','device')" xlink:show="new" xlink:title="javascript:callOperation('api.advertise','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="59" x="1555" y="2212.0669">advertise</text></a><a href="javascript:callOperation('api.connectResp','device')" target="_top" title="javascript:callOperation('api.connectResp','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.connectResp','device')" xlink:show="new" xlink:title="javascript:callOperation('api.connectResp','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="82" x="1537" y="2227.1997">connectResp</text></a><a href="javascript:callOperation('api.disconnected','device')" target="_top" title="javascript:callOperation('api.disconnected','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.disconnected','device')" xlink:show="new" xlink:title="javascript:callOperation('api.disconnected','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="1535.5" y="2242.3325">disconnected</text></a><a href="javascript:callOperation('api.notify','device')" target="_top" title="javascript:callOperation('api.notify','device')" xlink:actuate="onRequest" xlink:href="javascript:callOperation('api.notify','device')" xlink:show="new" xlink:title="javascript:callOperation('api.notify','device')" xlink:type="simple"><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="35" x="1560.5" y="2257.4653">notify</text></a><!--MD5=[c61f0ea3d09eda4c150e45c3f3ca23ed]
+@startuml
+		
+'left to right direction
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+hide circle
+hide empty members
+'hide fields
+
+		skinparam hyperlinkColor black
+		skinparam hyperlinkUnderline false
+	
+allowmixing
+actor "[[javascript:setSender('user') user]]" as user 
+note right of user
+{{
+	
+			
+			'left to right direction
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+								
+				note "Current pseudostate" as user.initNote #lightgreen
+				[*] - -> user.initNote
+								hide user.initNote
+							
+							
+							
+							
+							
+								user.Waiting : [<color:red><s>!EP_CONTAINS(api, getStatus)</s></color>]/\n    api.getStatus();
+							
+							state "Waiting" as user.Waiting #lightgreen 
+							
+							
+						
+				
+							[*] - -> user.Waiting 
+							
+			
+			
+		
+}}
+end note
+class "[[javascript:setSender('api') api]] : SmartHomeAPI" as api <<active>> {
+	avoidAutoconnect = true
+	willReportStateViaPoll = true
+	- - -
+	+[[javascript:callOperation('api.identifyResp') identifyResp]](success : Boolean, avoidAutoconnect : Boolean, willReportStateViaPoll : Boolean)
+	+[[javascript:callOperation('api.queryResp') queryResp]]()
+	+[[javascript:callOperation('api.executeResp') executeResp]]()
+	+[[javascript:callOperation('api.parseNotificationResp') parseNotificationResp]]()
+}
+note right of api
+{{
+	
+			
+			'left to right direction
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state api.choice <<choice>>
+							
+				note "Current pseudostate" as api.choiceNote #lightgreen
+				api.choiceNote - -> api.choice
+								hide api.choiceNote
+							
+								
+				note "Current pseudostate" as api.initNote #lightgreen
+				[*] - -> api.initNote
+								hide api.initNote
+							
+							
+							
+							
+							
+								api.Idle : getStatus()
+								api.Idle : advertise()
+							
+							state "Idle" as api.Idle  
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled : <color:red><s>notify(data)</s></color>/\n    app.PARSE_NOTIFICATION(data)
+								api.Enabled : <color:red><s>parseNotificationResp()</s></color>
+								api.Enabled : <color:red><s>reportState(data)</s></color>
+							
+							state "Enabled" as api.Enabled #lightgreen {
+								
+				
+				
+							state api.Enabled.choice <<choice>>
+							
+				note "Current pseudostate" as api.Enabled.choiceNote #lightgreen
+				api.Enabled.choiceNote - -> api.Enabled.choice
+								hide api.Enabled.choiceNote
+							
+								
+				note "Current pseudostate" as api.Enabled.initNote #lightgreen
+				[*] - -> api.Enabled.initNote
+								hide api.Enabled.initNote
+							
+							
+							
+							
+							
+								api.Enabled.Unconnected : <color:red><s>connectResp()</s></color>
+								api.Enabled.Unconnected : <color:red><s>disconnected()</s></color>
+							
+							state "Unconnected" as api.Enabled.Unconnected #lightgreen {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Unconnected.initNote #lightgreen
+				[*] - -> api.Enabled.Unconnected.initNote
+								hide api.Enabled.Unconnected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Unconnected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "QueryPending" as api.Enabled.Unconnected.QueryPending #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Unconnected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Unconnected.Idle 
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : getStatus()
+							
+							api.Enabled.Unconnected.QueryPending - -> api.Enabled.Unconnected.Querying : <color:red><s>advertise()</s></color>/\n    app.QUERY()
+							
+							api.Enabled.Unconnected.Querying - -> api.Enabled.Unconnected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled.Connecting : queryResp()
+							
+							state "Connecting" as api.Enabled.Connecting  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as api.Enabled.Connected  {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Connected.initNote #lightgreen
+				[*] - -> api.Enabled.Connected.initNote
+								hide api.Enabled.Connected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Connected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Connected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Connected.Idle 
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : getStatus()/\n    app.QUERY()
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]/\n    app.QUERY()
+							
+							api.Enabled.Connected.Querying - -> api.Enabled.Connected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingAutoResp" as api.Enabled.WaitingAutoResp  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingDiscoResp" as api.Enabled.WaitingDiscoResp  
+							
+							
+						
+				
+							[*] - -> api.Enabled.choice 
+							
+							api.Enabled.choice - -> api.Enabled.Unconnected : [avoidAutoconnect===true]
+							
+							api.Enabled.choice - -> api.Enabled.Connecting : [else]/\n    device.connect()
+							
+							api.Enabled.Connecting - -> api.Enabled.WaitingAutoResp : connectResp()/\n    app.AUTOCONNECT()
+							
+							api.Enabled.WaitingAutoResp - -> api.Enabled.Connected : autoconnectResp()
+							
+							api.Enabled.Connected - -> api.Enabled.WaitingDiscoResp : disconnected()/\n    app.DISCONNECT()
+							
+							api.Enabled.WaitingDiscoResp - -> api.Enabled.Connecting : disconnectResp()/\n    device.connect()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Identifying" as api.Identifying  
+							
+							
+						
+				
+							[*] - -> api.Idle 
+							
+							api.Idle - -> api.Identifying : advertise()/\n    app.IDENTIFY()
+							
+							api.Identifying - -> api.choice : identifyResp(success, aa, wrsvp)/\n    this.avoidAutoconnect = aa;\l    this.willReportStateViaPoll = wrsvp
+							
+							api.choice - -> api.Enabled : [success]
+							
+							api.choice - -> api.Idle : [else]
+							
+			
+			
+		
+}}
+end note
+class "[[javascript:setSender('app') app]] : App" as app <<active>> {
+	+[[javascript:callOperation('app.IDENTIFY') IDENTIFY]](request)
+	+[[javascript:callOperation('app.QUERY') QUERY]](request)
+	+[[javascript:callOperation('app.PARSE_NOTIFICATION') PARSE_NOTIFICATION]](request)
+	+[[javascript:callOperation('app.disconnectResp') disconnectResp]](success : Boolean)
+	+[[javascript:callOperation('app.registerForNotificationsResp') registerForNotificationsResp]](success : Boolean)
+}
+note right of app
+{{
+	
+			
+			'left to right direction
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state app.disconnectionChoice <<choice>>
+							
+				note "Current pseudostate" as app.disconnectionChoiceNote #lightgreen
+				app.disconnectionChoiceNote - -> app.disconnectionChoice
+								hide app.disconnectionChoiceNote
+							
+								
+				note "Current pseudostate" as app.initNote #lightgreen
+				[*] - -> app.initNote
+								hide app.initNote
+							
+							
+							
+							
+							
+								app.Waiting : <color:red><s>IDENTIFY()</s></color>/\n    api.identifyResp(true, true, true)
+							
+							state "Waiting" as app.Waiting #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Registering" as app.Registering  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting1" as app.Disconnecting1  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting2" as app.Disconnecting2  
+							
+							
+						
+				
+							[*] - -> app.Waiting : /this.prevData = 0;
+							
+							app.Waiting - -> app.Registering : <color:red><s>QUERY()</s></color>/\n    device.registerForNotifications();\l    api.queryResp(prevData)
+							
+							app.Registering - -> app.Waiting : registerForNotificationsResp(success)
+							
+							app.Waiting - -> app.Disconnecting1 : <color:red><s>PARSE_NOTIFICATION(data)</s></color>/\n    this.prevData = data;\l    device.disconnect();\l    api.parseNotificationResp()
+							
+							app.Disconnecting1 - -> app.disconnectionChoice : disconnectResp(success)
+							
+							app.disconnectionChoice - -> app.Waiting : [success]
+							
+							app.disconnectionChoice - -> app.Disconnecting2 : [else]/\n    device.disconnect()
+							
+							app.Disconnecting2 - -> app.Waiting : disconnectResp(success)
+							
+			
+			
+		
+}}
+end note
+actor "[[javascript:setSender('device') device]] : LYWSD03MMC" as device 
+note right of device
+{{
+	
+			
+			'left to right direction
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state device.disconnecting <<choice>>
+							
+				note "Current pseudostate" as device.disconnectingNote #lightgreen
+				device.disconnectingNote - -> device.disconnecting
+								hide device.disconnectingNote
+							
+								
+				note "Current pseudostate" as device.initNote #lightgreen
+				[*] - -> device.initNote
+								hide device.initNote
+							
+							
+							
+							
+							
+								device.Unconnected : after(ADVERTISE_PERIOD)\n    [!EP_CONTAINS(api, advertise)]/\n    api.advertise()
+								device.Unconnected : disconnect()/\n    app.disconnectResp(true)
+							
+							state "Unconnected" as device.Unconnected  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as device.Connected #lightgreen {
+								
+				
+				
+							state device.Connected.Registering <<choice>>
+							
+				note "Current pseudostate" as device.Connected.RegisteringNote #lightgreen
+				device.Connected.RegisteringNote - -> device.Connected.Registering
+								hide device.Connected.RegisteringNote
+							
+								
+				note "Current pseudostate" as device.Connected.initNote #lightgreen
+				[*] - -> device.Connected.initNote
+								hide device.Connected.initNote
+							
+							
+							
+							
+							
+								device.Connected.Registered : after(NOTIFY_PERIOD)\n    [!EP_CONTAINS(app, PARSE_NOTIFICATION)]/\n    api.notify(data)
+								device.Connected.Registered : registerForNotifications()/\n    registerForNotificationsResp(true)
+							
+							state "Registered" as device.Connected.Registered  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Idle" as device.Connected.Idle #lightgreen 
+							
+							
+						
+				
+							[*] - -> device.Connected.Idle 
+							
+							device.Connected.Idle - -> device.Connected.Registering : <color:red><s>registerForNotifications()</s></color>
+							
+							device.Connected.Registering - -> device.Connected.Idle : /app.registerForNotificationsResp(false)
+							
+							device.Connected.Registering - -> device.Connected.Registered : /app.registerForNotificationsResp(true)
+							
+			
+							}
+							
+							
+						
+				
+							[*] - -> device.Unconnected 
+							
+							device.Unconnected - -> device.Connected : connect()/\n    api.connectResp();\l    nbDisconErrors = 0
+							
+							device.Connected - -> device.disconnecting : <color:red><s>disconnect()</s></color>
+							
+							device.disconnecting - -> device.Connected : [nbDisconErrors\l    <MAX_DISCON_ERRORS]/\n    app.disconnectResp(false);\l    nbDisconErrors++
+							
+							device.disconnecting - -> device.Unconnected : /app.disconnectResp(true)
+							
+							device.Unconnected - -> device.Connected.Registering : registerForNotifications()/\n    nbDisconErrors = 0
+							
+			
+			
+		
+}}
+end note
+user - - api : > [[javascript:callOperation('api.query','user') query]]
+api -[#transparent]- app : > [[javascript:callOperation('app.IDENTIFY','api') IDENTIFY]]\n[[javascript:callOperation('app.QUERY','api') QUERY]]\n[[javascript:callOperation('app.PARSE_NOTIFICATION','api') PARSE_NOTIFICATION]]\n[[javascript:callOperation('app.AUTOCONNECT','api') AUTOCONNECT]]\n[[javascript:callOperation('app.DISCONNECT','api') DISCONNECT]]
+api - - app : < [[javascript:callOperation('api.identifyResp','app') identifyResp]]\n[[javascript:callOperation('api.queryResp','app') queryResp]]\n[[javascript:callOperation('api.executeResp','app') executeResp]]\n[[javascript:callOperation('api.parseNotificationResp','app') parseNotificationResp]]\n[[javascript:callOperation('api.autoconnectResp','app') autoconnectResp]]\n[[javascript:callOperation('api.disconnectResp','app') disconnectResp]]
+app -[#transparent]- device : > [[javascript:callOperation('device.disconnect','app') disconnect]]\n[[javascript:callOperation('device.registerForNotifications','app') registerForNotifications]]
+app - - device : < [[javascript:callOperation('app.disconnectResp','device') disconnectResp]]\n[[javascript:callOperation('app.registerForNotificationsResp','device') registerForNotificationsResp]]
+api -[#transparent]- device : > [[javascript:callOperation('device.connect','api') connect]]
+api - - device : < [[javascript:callOperation('api.advertise','device') advertise]]\n[[javascript:callOperation('api.connectResp','device') connectResp]]\n[[javascript:callOperation('api.disconnected','device') disconnected]]\n[[javascript:callOperation('api.notify','device') notify]]
+@enduml
+
+@startuml
+		
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+hide circle
+hide empty members
+
+		skinparam hyperlinkColor black
+		skinparam hyperlinkUnderline false
+	
+allowmixing
+actor "[[javascript:setSender('user') user]]" as user 
+note right of user
+{{
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+								
+				note "Current pseudostate" as user.initNote #lightgreen
+				[*] - -> user.initNote
+								hide user.initNote
+							
+							
+							
+							
+							
+								user.Waiting : [<color:red><s>!EP_CONTAINS(api, getStatus)</s></color>]/\n    api.getStatus();
+							
+							state "Waiting" as user.Waiting #lightgreen 
+							
+							
+						
+				
+							[*] - -> user.Waiting 
+							
+			
+			
+		
+}}
+end note
+class "[[javascript:setSender('api') api]] : SmartHomeAPI" as api <<active>> {
+	avoidAutoconnect = true
+	willReportStateViaPoll = true
+	- - -
+	+[[javascript:callOperation('api.identifyResp') identifyResp]](success : Boolean, avoidAutoconnect : Boolean, willReportStateViaPoll : Boolean)
+	+[[javascript:callOperation('api.queryResp') queryResp]]()
+	+[[javascript:callOperation('api.executeResp') executeResp]]()
+	+[[javascript:callOperation('api.parseNotificationResp') parseNotificationResp]]()
+}
+note right of api
+{{
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state api.choice <<choice>>
+							
+				note "Current pseudostate" as api.choiceNote #lightgreen
+				api.choiceNote - -> api.choice
+								hide api.choiceNote
+							
+								
+				note "Current pseudostate" as api.initNote #lightgreen
+				[*] - -> api.initNote
+								hide api.initNote
+							
+							
+							
+							
+							
+								api.Idle : getStatus()
+								api.Idle : advertise()
+							
+							state "Idle" as api.Idle  
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled : <color:red><s>notify(data)</s></color>/\n    app.PARSE_NOTIFICATION(data)
+								api.Enabled : <color:red><s>parseNotificationResp()</s></color>
+								api.Enabled : <color:red><s>reportState(data)</s></color>
+							
+							state "Enabled" as api.Enabled #lightgreen {
+								
+				
+				
+							state api.Enabled.choice <<choice>>
+							
+				note "Current pseudostate" as api.Enabled.choiceNote #lightgreen
+				api.Enabled.choiceNote - -> api.Enabled.choice
+								hide api.Enabled.choiceNote
+							
+								
+				note "Current pseudostate" as api.Enabled.initNote #lightgreen
+				[*] - -> api.Enabled.initNote
+								hide api.Enabled.initNote
+							
+							
+							
+							
+							
+								api.Enabled.Unconnected : <color:red><s>connectResp()</s></color>
+								api.Enabled.Unconnected : <color:red><s>disconnected()</s></color>
+							
+							state "Unconnected" as api.Enabled.Unconnected #lightgreen {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Unconnected.initNote #lightgreen
+				[*] - -> api.Enabled.Unconnected.initNote
+								hide api.Enabled.Unconnected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Unconnected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "QueryPending" as api.Enabled.Unconnected.QueryPending #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Unconnected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Unconnected.Idle 
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]
+							
+							api.Enabled.Unconnected.Idle - -> api.Enabled.Unconnected.QueryPending : getStatus()
+							
+							api.Enabled.Unconnected.QueryPending - -> api.Enabled.Unconnected.Querying : <color:red><s>advertise()</s></color>/\n    app.QUERY()
+							
+							api.Enabled.Unconnected.Querying - -> api.Enabled.Unconnected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+								api.Enabled.Connecting : queryResp()
+							
+							state "Connecting" as api.Enabled.Connecting  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as api.Enabled.Connected  {
+								
+				
+				
+								
+				note "Current pseudostate" as api.Enabled.Connected.initNote #lightgreen
+				[*] - -> api.Enabled.Connected.initNote
+								hide api.Enabled.Connected.initNote
+							
+							
+							
+							
+							
+							
+							state "Idle" as api.Enabled.Connected.Idle  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Querying" as api.Enabled.Connected.Querying  
+							
+							
+						
+				
+							[*] - -> api.Enabled.Connected.Idle 
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : getStatus()/\n    app.QUERY()
+							
+							api.Enabled.Connected.Idle - -> api.Enabled.Connected.Querying : after(POLLING_PERIOD)\n    [willReportStateViaPoll===true]/\n    app.QUERY()
+							
+							api.Enabled.Connected.Querying - -> api.Enabled.Connected.Idle : queryResp()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingAutoResp" as api.Enabled.WaitingAutoResp  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "WaitingDiscoResp" as api.Enabled.WaitingDiscoResp  
+							
+							
+						
+				
+							[*] - -> api.Enabled.choice 
+							
+							api.Enabled.choice - -> api.Enabled.Unconnected : [avoidAutoconnect===true]
+							
+							api.Enabled.choice - -> api.Enabled.Connecting : [else]/\n    device.connect()
+							
+							api.Enabled.Connecting - -> api.Enabled.WaitingAutoResp : connectResp()/\n    app.AUTOCONNECT()
+							
+							api.Enabled.WaitingAutoResp - -> api.Enabled.Connected : autoconnectResp()
+							
+							api.Enabled.Connected - -> api.Enabled.WaitingDiscoResp : disconnected()/\n    app.DISCONNECT()
+							
+							api.Enabled.WaitingDiscoResp - -> api.Enabled.Connecting : disconnectResp()/\n    device.connect()
+							
+			
+							}
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Identifying" as api.Identifying  
+							
+							
+						
+				
+							[*] - -> api.Idle 
+							
+							api.Idle - -> api.Identifying : advertise()/\n    app.IDENTIFY()
+							
+							api.Identifying - -> api.choice : identifyResp(success, aa, wrsvp)/\n    this.avoidAutoconnect = aa;\l    this.willReportStateViaPoll = wrsvp
+							
+							api.choice - -> api.Enabled : [success]
+							
+							api.choice - -> api.Idle : [else]
+							
+			
+			
+		
+}}
+end note
+class "[[javascript:setSender('app') app]] : App" as app <<active>> {
+	+[[javascript:callOperation('app.IDENTIFY') IDENTIFY]](request)
+	+[[javascript:callOperation('app.QUERY') QUERY]](request)
+	+[[javascript:callOperation('app.PARSE_NOTIFICATION') PARSE_NOTIFICATION]](request)
+	+[[javascript:callOperation('app.disconnectResp') disconnectResp]](success : Boolean)
+	+[[javascript:callOperation('app.registerForNotificationsResp') registerForNotificationsResp]](success : Boolean)
+}
+note right of app
+{{
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state app.disconnectionChoice <<choice>>
+							
+				note "Current pseudostate" as app.disconnectionChoiceNote #lightgreen
+				app.disconnectionChoiceNote - -> app.disconnectionChoice
+								hide app.disconnectionChoiceNote
+							
+								
+				note "Current pseudostate" as app.initNote #lightgreen
+				[*] - -> app.initNote
+								hide app.initNote
+							
+							
+							
+							
+							
+								app.Waiting : <color:red><s>IDENTIFY()</s></color>/\n    api.identifyResp(true, true, true)
+							
+							state "Waiting" as app.Waiting #lightgreen 
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Registering" as app.Registering  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting1" as app.Disconnecting1  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Disconnecting2" as app.Disconnecting2  
+							
+							
+						
+				
+							[*] - -> app.Waiting : /this.prevData = 0;
+							
+							app.Waiting - -> app.Registering : <color:red><s>QUERY()</s></color>/\n    device.registerForNotifications();\l    api.queryResp(prevData)
+							
+							app.Registering - -> app.Waiting : registerForNotificationsResp(success)
+							
+							app.Waiting - -> app.Disconnecting1 : <color:red><s>PARSE_NOTIFICATION(data)</s></color>/\n    this.prevData = data;\l    device.disconnect();\l    api.parseNotificationResp()
+							
+							app.Disconnecting1 - -> app.disconnectionChoice : disconnectResp(success)
+							
+							app.disconnectionChoice - -> app.Waiting : [success]
+							
+							app.disconnectionChoice - -> app.Disconnecting2 : [else]/\n    device.disconnect()
+							
+							app.Disconnecting2 - -> app.Waiting : disconnectResp(success)
+							
+			
+			
+		
+}}
+end note
+actor "[[javascript:setSender('device') device]] : LYWSD03MMC" as device 
+note right of device
+{{
+	
+			
+			
+			hide empty description
+			
+			skinparam hyperlinkColor black
+			skinparam hyperlinkUnderline false
+		
+			
+	
+			
+				
+				
+							state device.disconnecting <<choice>>
+							
+				note "Current pseudostate" as device.disconnectingNote #lightgreen
+				device.disconnectingNote - -> device.disconnecting
+								hide device.disconnectingNote
+							
+								
+				note "Current pseudostate" as device.initNote #lightgreen
+				[*] - -> device.initNote
+								hide device.initNote
+							
+							
+							
+							
+							
+								device.Unconnected : after(ADVERTISE_PERIOD)\n    [!EP_CONTAINS(api, advertise)]/\n    api.advertise()
+								device.Unconnected : disconnect()/\n    app.disconnectResp(true)
+							
+							state "Unconnected" as device.Unconnected  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Connected" as device.Connected #lightgreen {
+								
+				
+				
+							state device.Connected.Registering <<choice>>
+							
+				note "Current pseudostate" as device.Connected.RegisteringNote #lightgreen
+				device.Connected.RegisteringNote - -> device.Connected.Registering
+								hide device.Connected.RegisteringNote
+							
+								
+				note "Current pseudostate" as device.Connected.initNote #lightgreen
+				[*] - -> device.Connected.initNote
+								hide device.Connected.initNote
+							
+							
+							
+							
+							
+								device.Connected.Registered : after(NOTIFY_PERIOD)\n    [!EP_CONTAINS(app, PARSE_NOTIFICATION)]/\n    api.notify(data)
+								device.Connected.Registered : registerForNotifications()/\n    registerForNotificationsResp(true)
+							
+							state "Registered" as device.Connected.Registered  
+							
+							
+						
+							
+							
+							
+							
+							
+							state "Idle" as device.Connected.Idle #lightgreen 
+							
+							
+						
+				
+							[*] - -> device.Connected.Idle 
+							
+							device.Connected.Idle - -> device.Connected.Registering : <color:red><s>registerForNotifications()</s></color>
+							
+							device.Connected.Registering - -> device.Connected.Idle : /app.registerForNotificationsResp(false)
+							
+							device.Connected.Registering - -> device.Connected.Registered : /app.registerForNotificationsResp(true)
+							
+			
+							}
+							
+							
+						
+				
+							[*] - -> device.Unconnected 
+							
+							device.Unconnected - -> device.Connected : connect()/\n    api.connectResp();\l    nbDisconErrors = 0
+							
+							device.Connected - -> device.disconnecting : <color:red><s>disconnect()</s></color>
+							
+							device.disconnecting - -> device.Connected : [nbDisconErrors\l    <MAX_DISCON_ERRORS]/\n    app.disconnectResp(false);\l    nbDisconErrors++
+							
+							device.disconnecting - -> device.Unconnected : /app.disconnectResp(true)
+							
+							device.Unconnected - -> device.Connected.Registering : registerForNotifications()/\n    nbDisconErrors = 0
+							
+			
+			
+		
+}}
+end note
+user - - api : > [[javascript:callOperation('api.query','user') query]]
+api -[#transparent]- app : > [[javascript:callOperation('app.IDENTIFY','api') IDENTIFY]]\n[[javascript:callOperation('app.QUERY','api') QUERY]]\n[[javascript:callOperation('app.PARSE_NOTIFICATION','api') PARSE_NOTIFICATION]]\n[[javascript:callOperation('app.AUTOCONNECT','api') AUTOCONNECT]]\n[[javascript:callOperation('app.DISCONNECT','api') DISCONNECT]]
+api - - app : < [[javascript:callOperation('api.identifyResp','app') identifyResp]]\n[[javascript:callOperation('api.queryResp','app') queryResp]]\n[[javascript:callOperation('api.executeResp','app') executeResp]]\n[[javascript:callOperation('api.parseNotificationResp','app') parseNotificationResp]]\n[[javascript:callOperation('api.autoconnectResp','app') autoconnectResp]]\n[[javascript:callOperation('api.disconnectResp','app') disconnectResp]]
+app -[#transparent]- device : > [[javascript:callOperation('device.disconnect','app') disconnect]]\n[[javascript:callOperation('device.registerForNotifications','app') registerForNotifications]]
+app - - device : < [[javascript:callOperation('app.disconnectResp','device') disconnectResp]]\n[[javascript:callOperation('app.registerForNotificationsResp','device') registerForNotificationsResp]]
+api -[#transparent]- device : > [[javascript:callOperation('device.connect','api') connect]]
+api - - device : < [[javascript:callOperation('api.advertise','device') advertise]]\n[[javascript:callOperation('api.connectResp','device') connectResp]]\n[[javascript:callOperation('api.disconnected','device') disconnected]]\n[[javascript:callOperation('api.notify','device') notify]]
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

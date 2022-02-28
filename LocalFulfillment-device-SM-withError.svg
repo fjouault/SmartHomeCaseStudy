@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="479px" preserveAspectRatio="none" style="width:887px;height:479px;" version="1.1" viewBox="0 0 887 479" width="887px" zoomAndPan="magnify"><defs><filter height="300%" id="fovfrjc56psoq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><polygon fill="#FEFECE" filter="url(#fovfrjc56psoq)" points="509.9286,6,521.9286,18,509.9286,30,497.9286,18,509.9286,6" style="stroke:#A80036;stroke-width:1.5;"/><g id="app.Waiting"><rect fill="#FEFECE" filter="url(#fovfrjc56psoq)" height="64.2344" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="239" x="297.4286" y="239"/><line style="stroke:#A80036;stroke-width:1.5;" x1="297.4286" x2="536.4286" y1="265.2969" y2="265.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="391.9286" y="256.9951">Waiting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="302.4286" y="281.4355">IDENTIFY()/</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="203" x="318.4286" y="295.4043">api.identifyResp(true, true, true)</text></g><rect fill="#FEFECE" filter="url(#fovfrjc56psoq)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="89" x="127.4286" y="425"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="132.4286" y="449.8467">Registering</text><rect fill="#FEFECE" filter="url(#fovfrjc56psoq)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="119" x="624.4286" y="425"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="629.4286" y="449.8467">Disconnecting1</text><rect fill="#FEFECE" filter="url(#fovfrjc56psoq)" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="119" x="270.4286" y="122"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="275.4286" y="146.8467">Disconnecting2</text><ellipse cx="617.9286" cy="142" fill="#000000" filter="url(#fovfrjc56psoq)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><!--MD5=[c646245333a10c3430b28c86be5ef594]
+link *start to app.Waiting--><path d="M611.0616,149.342 C597.4236,161.749 565.6666,189.699 535.9286,209 C520.8866,218.762 504.0896,228.187 487.9646,236.588 " fill="none" id="*start-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="483.4366,238.93,493.2682,238.3483,487.8777,236.633,489.593,231.2425,483.4366,238.93" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="560.9286" y="205.0669">/this.prevData = 0;</text><!--MD5=[badaed935cda04f82ef2692f299e90d2]
+link app.Waiting to app.Registering--><path d="M349.7306,303.088 C335.5826,311.528 321.4646,321.554 309.9286,333 C287.3076,355.442 297.3236,373.3671 273.9286,395 C259.0296,408.7764 239.5486,419.4128 221.6086,427.2002 " fill="none" id="app.Waiting-to-app.Registering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="216.5946,429.3214,226.4418,429.4979,221.1993,427.3729,223.3242,422.1303,216.5946,429.3214" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="310.9286" y="353.5669">QUERY()/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="207" x="326.9286" y="368.6997">device.registerForNotifications();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="159" x="326.9286" y="383.8325">api.queryResp(prevData)</text><!--MD5=[e135e460e3c0981bdc767682235d9bea]
+link app.Registering to app.Waiting--><path d="M127.3046,442.4955 C92.8752,438.6995 47.3042,427.3631 23.9283,395 C7.7936,372.6621 6,353.926 23.9283,333 C58.0552,293.167 190.1036,279.129 291.8196,274.298 " fill="none" id="app.Registering-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="296.9446,274.061,287.7701,270.4791,291.9499,274.291,288.1381,278.4707,296.9446,274.061" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="240" x="24.9283" y="368.5669">registerForNotificationsResp(success)</text><!--MD5=[4f1ae597f12f9376a7a21176deb8b410]
+link app.Waiting to app.Disconnecting1--><path d="M496.1466,303.146 C511.4146,311.393 526.5016,321.326 538.9286,333 C562.1516,354.817 551.2606,373.6656 574.9286,395 C587.7076,406.5192 603.6436,415.7171 619.3516,422.8888 " fill="none" id="app.Waiting-to-app.Disconnecting1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="624.2156,425.0498,617.6148,417.7403,619.6462,423.0198,614.3667,425.0512,624.2156,425.0498" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="180" x="575.9286" y="346.0669">PARSE_NOTIFICATION(data)/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="138" x="591.9286" y="361.1997">this.prevData = data;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="591.9286" y="376.3325">device.disconnect();</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="591.9286" y="391.4653">api.parseNotificationResp()</text><!--MD5=[9b4cb4055313ac9043f4793dbdd548c1]
+link app.Disconnecting1 to app.disconnectionChoice--><path d="M736.4566,424.9069 C749.3226,417.6004 761.5146,407.8312 768.9286,395 C782.7136,371.1407 775.8166,359.681 768.9286,333 C741.7386,227.68 719.0896,201.572 644.9286,122 C605.1686,79.34 546.2496,41.109 521.5186,25.933 " fill="none" id="app.Disconnecting1-to-app.disconnectionChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="517.0446,23.211,522.6545,31.3059,521.3162,25.8097,526.8125,24.4713,517.0446,23.211" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="718.9286" y="205.0669">disconnectResp(success)</text><!--MD5=[ebc9812a29e83a42213b749716897381]
+link app.disconnectionChoice to app.Waiting--><path d="M511.1736,28.812 C514.4256,58.171 520.7886,147.118 487.9286,209 C482.8196,218.621 475.5186,227.386 467.5226,235.083 " fill="none" id="app.disconnectionChoice-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="463.5486,238.775,472.8641,235.5779,467.211,235.3711,467.4178,229.718,463.5486,238.775" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="512.9286" y="146.5669">[success]</text><!--MD5=[d2be2575b30767e99aec33cfa7460286]
+link app.disconnectionChoice to app.Disconnecting2--><path d="M499.5936,20.032 C466.4266,23.56 363.5716,36.261 341.9286,60 C328.2136,75.042 326.0876,98.598 326.8756,116.438 " fill="none" id="app.disconnectionChoice-to-app.Disconnecting2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="327.2046,121.775,330.6441,112.5463,326.8974,116.7844,322.6592,113.0377,327.2046,121.775" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="392.9286" y="73.0669">[else]/</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="358.9286" y="88.1997">device.disconnect()</text><!--MD5=[4d2605e188b41542478ddc35331635ad]
+link app.Disconnecting2 to app.Waiting--><path d="M321.4596,162.045 C316.6556,175.875 313.0216,194.608 320.9286,209 C326.5856,219.298 334.7996,228.104 344.0746,235.555 " fill="none" id="app.Disconnecting2-to-app.Waiting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="348.1106,238.666,343.425,230.0031,344.1507,235.6132,338.5406,236.3389,348.1106,238.666" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="161" x="321.9286" y="205.0669">disconnectResp(success)</text><!--MD5=[31a7bf915b14e0668c6388ccd6e7c1da]
+@startuml
+'left to right direction
+
+hide empty description
+
+
+
+
+	
+	
+				state app.disconnectionChoice <<choice>>
+				
+				
+				
+				
+				
+					app.Waiting : IDENTIFY()/\n    api.identifyResp(true, true, true)
+				
+				state "Waiting" as app.Waiting  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Registering" as app.Registering  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Disconnecting1" as app.Disconnecting1  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Disconnecting2" as app.Disconnecting2  
+				
+				
+			
+	
+				[*] - -> app.Waiting : /this.prevData = 0;
+				
+				app.Waiting - -> app.Registering : QUERY()/\n    device.registerForNotifications();\l    api.queryResp(prevData)
+				
+				app.Registering - -> app.Waiting : registerForNotificationsResp(success)
+				
+				app.Waiting - -> app.Disconnecting1 : PARSE_NOTIFICATION(data)/\n    this.prevData = data;\l    device.disconnect();\l    api.parseNotificationResp()
+				
+				app.Disconnecting1 - -> app.disconnectionChoice : disconnectResp(success)
+				
+				app.disconnectionChoice - -> app.Waiting : [success]
+				
+				app.disconnectionChoice - -> app.Disconnecting2 : [else]/\n    device.disconnect()
+				
+				app.Disconnecting2 - -> app.Waiting : disconnectResp(success)
+				
+
+@enduml
+
+@startuml
+
+hide empty description
+
+
+
+
+	
+	
+				state app.disconnectionChoice <<choice>>
+				
+				
+				
+				
+				
+					app.Waiting : IDENTIFY()/\n    api.identifyResp(true, true, true)
+				
+				state "Waiting" as app.Waiting  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Registering" as app.Registering  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Disconnecting1" as app.Disconnecting1  
+				
+				
+			
+				
+				
+				
+				
+				
+				state "Disconnecting2" as app.Disconnecting2  
+				
+				
+			
+	
+				[*] - -> app.Waiting : /this.prevData = 0;
+				
+				app.Waiting - -> app.Registering : QUERY()/\n    device.registerForNotifications();\l    api.queryResp(prevData)
+				
+				app.Registering - -> app.Waiting : registerForNotificationsResp(success)
+				
+				app.Waiting - -> app.Disconnecting1 : PARSE_NOTIFICATION(data)/\n    this.prevData = data;\l    device.disconnect();\l    api.parseNotificationResp()
+				
+				app.Disconnecting1 - -> app.disconnectionChoice : disconnectResp(success)
+				
+				app.disconnectionChoice - -> app.Waiting : [success]
+				
+				app.disconnectionChoice - -> app.Disconnecting2 : [else]/\n    device.disconnect()
+				
+				app.Disconnecting2 - -> app.Waiting : disconnectResp(success)
+				
+
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 17:40:11 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

@@ -1,0 +1,546 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:c="http://myconstraints" viewBox="-6.701171875 -59 896.029296875 1543.78125">
+ <style>
+  svg {
+        --main-fill: #FEFECE;
+        --note-fill: #FBFB77;
+        --main-stroke: #A80036;
+        --text-fill: #000000;
+        --fragment-stroke: #000000;
+        --polygon-fill: #EEEEEE;
+       }
+  .participant {
+   fill: var(--main-fill);
+   stroke: var(--main-stroke);
+   stroke-width: 1.5;
+  }
+  .participantName {
+   stroke-width: 0;
+  }
+  .actor {
+   fill: var(--main-fill);
+   stroke: var(--main-stroke);
+   stroke-width: 2;
+  }
+  .invariant {
+   stroke: var(--main-stroke);
+   fill: var(--note-fill);
+  }
+  .note {
+   stroke: var(--main-stroke);
+   fill: var(--note-fill);
+  }
+  .note polygon {
+   fill: none;
+  }
+  .lifeline {
+   stroke: var(--main-stroke);
+   stroke-width: 1.0;
+  }
+  .messagePart {
+   stroke: var(--main-stroke);
+   stroke-width: 1.0;
+  }
+  .messageArrow {
+   stroke: var(--main-stroke);
+   stroke-width: 1.0;
+   marker-end: url(#arrowHead);
+  }
+  .messageArrowHead {
+   fill: var(--main-stroke);
+   stroke: var(--main-stroke);
+   stroke-width: 1.0;
+  }
+  .circle {
+   stroke: var(--main-stroke);
+  }
+  .found circle {
+   fill: none;
+  }
+  .set rect {
+   fill: none;
+  }
+  .fragment rect {
+   stroke: var(--fragment-stroke);
+   stroke-width: 2.0;
+   fill: none;
+  }
+  .fragment polygon {
+   fill: var(--polygon-fill);
+   stroke: var(--fragment-stroke);
+   stroke-width: 1.0;
+  }
+  text {
+   fill: var(--text-fill);
+  }
+  .fragment text, .compartment text {
+   font-weight: bold;
+  }
+  .compartment line {
+   stroke: black;
+   stroke-dasharray: 2.0,2.0;
+  }
+  .dashed {
+   stroke-dasharray: 2.0,2.0;
+  }
+ </style>
+ 
+  
+  <defs>
+   <!-- 95:1-117:2 -->
+   
+   <!-- 131:1-166:2 -->
+   
+   <!-- 220:1-232:2 -->
+   
+   <!-- 234:1-254:2 -->
+   
+   <!-- 256:1-276:2 -->
+   
+   <!-- 278:1-305:2 -->
+   
+   <!-- 307:1-327:2 -->
+   
+   <!-- 329:1-353:2 -->
+   
+   <!-- 355:1-383:2 -->
+   
+   <!-- 385:1-408:2 -->
+   
+   <!-- 410:1-447:2 -->
+   
+   <!-- 449:1-474:2 -->
+   
+   <!-- 476:1-513:2 -->
+   
+   <!-- 515:1-544:2 -->
+   
+   <!-- 546:1-568:2 -->
+   
+   <!-- 570:1-592:2 -->
+   
+  </defs>
+  <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+   <polygon class="messageArrowHead" points="0,0,10,4,0,8,6,4"></polygon>
+  </marker>
+  <pattern id="horizontalWhiteStripes" patternUnits="userSpaceOnUse" width="4" height="4">
+   <line x1="-5" y1="0" x2="9" y2="0" style="stroke-width: 4; stroke: white;"></line>
+  </pattern>
+ 
+
+ <g><g id="participant.user"><g id="actor" class="actor">
+    <line class="lifeline" id="participant.user.line" x1="32.765625" x2="32.765625" y1="31.7890625" y2="1353.9921875"></line>
+    
+    <text class="participantName" id="participant.user.name" style="dominant-baseline: text-before-edge;" x="10" y="5">user : </text>
+    <circle id="participant.user.head" cx="32.765625" cy="-50" r="8"></circle>
+    <line id="participant.user.body" x1="32.765625" x2="32.765625" y1="-42" y2="-15"></line>
+    <line id="participant.user.arms" x1="19.765625" x2="45.765625" y1="-34" y2="-34"></line>
+    <line id="participant.user.leftLeg" x1="32.765625" x2="19.765625" y1="-15" y2="0"></line>
+    <line id="participant.user.rightLeg" x1="32.765625" x2="45.765625" y1="-15" y2="0"></line>
+    <line class="lifeline" id="participant.user.line2" x1="32.765625" x2="32.765625" y1="1353.9921875" y2="1393.9921875"></line>
+    
+    <text class="participantName" id="participant.user.name2" style="dominant-baseline: text-before-edge;" x="10" y="1398.9921875">user : </text>
+    <circle id="participant.user.head2" cx="32.765625" cy="1433.78125" r="8"></circle>
+    <line id="participant.user.body2" x1="32.765625" x2="32.765625" y1="1441.78125" y2="1468.78125"></line>
+    <line id="participant.user.arms2" x1="19.765625" x2="45.765625" y1="1449.78125" y2="1449.78125"></line>
+    <line id="participant.user.leftLeg2" x1="32.765625" x2="19.765625" y1="1468.78125" y2="1483.78125"></line>
+    <line id="participant.user.rightLeg2" x1="32.765625" x2="45.765625" y1="1468.78125" y2="1483.78125"></line>
+    <!-- constraints -->
+    
+    
+    
+   </g></g></g>
+ <g><g id="participant.api" after="participant.user"><g id="object">
+    <line class="lifeline" id="participant.api.line" x1="250.3359375" x2="250.3359375" y1="31.7890625" y2="1353.9921875"></line>
+    <rect class="participant" id="participant.api.outline" x="165.53125" y="0" width="169.609375" height="31.7890625"></rect>
+    <text class="participantName" id="participant.api.name" style="dominant-baseline: text-before-edge;" x="175.53125" y="5">api : SmartHomeAPI</text>
+    <line class="lifeline" id="participant.api.line2" x1="250.3359375" x2="250.3359375" y1="1353.9921875" y2="1393.9921875"></line>
+    <rect class="participant" id="participant.api.outline2" x="165.53125" y="1393.9921875" width="169.609375" height="31.7890625"></rect>
+    <text class="participantName" id="participant.api.name2" style="dominant-baseline: text-before-edge;" x="175.53125" y="1398.9921875">api : SmartHomeAPI</text>
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="participant.app" after="participant.api"><g id="object">
+    <line class="lifeline" id="participant.app.line" x1="480.546875" x2="480.546875" y1="31.7890625" y2="1353.9921875"></line>
+    <rect class="participant" id="participant.app.outline" x="435.140625" y="0" width="90.8125" height="31.7890625"></rect>
+    <text class="participantName" id="participant.app.name" style="dominant-baseline: text-before-edge;" x="445.140625" y="5">app : App</text>
+    <line class="lifeline" id="participant.app.line2" x1="480.546875" x2="480.546875" y1="1353.9921875" y2="1393.9921875"></line>
+    <rect class="participant" id="participant.app.outline2" x="435.140625" y="1393.9921875" width="90.8125" height="31.7890625"></rect>
+    <text class="participantName" id="participant.app.name2" style="dominant-baseline: text-before-edge;" x="445.140625" y="1398.9921875">app : App</text>
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="participant.device" after="participant.app"><g id="actor" class="actor">
+    <line class="lifeline" id="participant.device.line" x1="720.859375" x2="720.859375" y1="31.7890625" y2="1353.9921875"></line>
+    
+    <text class="participantName" id="participant.device.name" style="dominant-baseline: text-before-edge;" x="635.953125" y="5">device : LYWSD03MMC</text>
+    <circle id="participant.device.head" cx="720.859375" cy="-50" r="8"></circle>
+    <line id="participant.device.body" x1="720.859375" x2="720.859375" y1="-42" y2="-15"></line>
+    <line id="participant.device.arms" x1="707.859375" x2="733.859375" y1="-34" y2="-34"></line>
+    <line id="participant.device.leftLeg" x1="720.859375" x2="707.859375" y1="-15" y2="0"></line>
+    <line id="participant.device.rightLeg" x1="720.859375" x2="733.859375" y1="-15" y2="0"></line>
+    <line class="lifeline" id="participant.device.line2" x1="720.859375" x2="720.859375" y1="1353.9921875" y2="1393.9921875"></line>
+    
+    <text class="participantName" id="participant.device.name2" style="dominant-baseline: text-before-edge;" x="635.953125" y="1398.9921875">device : LYWSD03MMC</text>
+    <circle id="participant.device.head2" cx="720.859375" cy="1433.78125" r="8"></circle>
+    <line id="participant.device.body2" x1="720.859375" x2="720.859375" y1="1441.78125" y2="1468.78125"></line>
+    <line id="participant.device.arms2" x1="707.859375" x2="733.859375" y1="1449.78125" y2="1449.78125"></line>
+    <line id="participant.device.leftLeg2" x1="720.859375" x2="707.859375" y1="1468.78125" y2="1483.78125"></line>
+    <line id="participant.device.rightLeg2" x1="720.859375" x2="733.859375" y1="1468.78125" y2="1483.78125"></line>
+    <!-- constraints -->
+    
+    
+    
+   </g></g></g>
+ 
+ 
+ <g><g id="msg[0]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[0].polygon" points="-5.701171875,72.68359375 4.74609375,62.236328125 60.78515625,62.236328125 71.232421875,72.68359375 60.78515625,83.130859375 4.74609375,83.130859375 "></polygon>
+    <a  href="javascript:backTo(1);">
+          <text class="invariantText" id="msg[0].text" style="dominant-baseline: text-before-edge;" x="4.74609375" y="61.7890625">Waiting</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[1]" after="msg[0]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[1].polygon" points="226.244140625,124.47265625 236.69140625,114.025390625 263.98046875,114.025390625 274.427734375,124.47265625 263.98046875,134.919921875 236.69140625,134.919921875 "></polygon>
+    <a  href="javascript:backTo(2);">
+          <text class="invariantText" id="msg[1].text" style="dominant-baseline: text-before-edge;" x="236.69140625" y="113.578125">Idle</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[2]" after="msg[1]"><g id="set" class="set">
+    
+    <line class="messagePart" id="msg[2].line1" x1="480.546875" x2="500.546875" y1="160.3671875" y2="160.3671875"></line>
+    <line class="messagePart" id="msg[2].line2" x1="500.546875" x2="500.546875" y1="160.3671875" y2="175.3671875"></line>
+    <line class="messageArrow" id="msg[2].line3" x1="500.546875" x2="480.546875" y1="175.3671875" y2="175.3671875"></line>
+    <text class="messageSignature" id="msg[2].text" style="dominant-baseline: text-before-edge;" x="505.546875" y="156.97265625">prevData = 0</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[3]" after="msg[2]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[3].polygon" points="442.080078125,196.26171875 452.52734375,185.814453125 508.56640625,185.814453125 519.013671875,196.26171875 508.56640625,206.708984375 452.52734375,206.708984375 "></polygon>
+    <a  href="javascript:backTo(3);">
+          <text class="invariantText" id="msg[3].text" style="dominant-baseline: text-before-edge;" x="452.52734375" y="185.3671875">Waiting</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[4]" after="msg[3]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[4].polygon" points="660.705078125,248.05078125 671.15234375,237.603515625 770.56640625,237.603515625 781.013671875,248.05078125 770.56640625,258.498046875 671.15234375,258.498046875 "></polygon>
+    <a  href="javascript:backTo(4);">
+          <text class="invariantText" id="msg[4].text" style="dominant-baseline: text-before-edge;" x="671.15234375" y="237.15625">Unconnected</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[5]" after="msg[4]"><g id="after">
+    <rect fill="url(#horizontalWhiteStripes)" id="msg[5].outline" stroke="none" x="27.765625" y="278.9453125" width="698.09375" height="43.578125"></rect>
+    <text class="messageSignature" id="msg[5].text" style="dominant-baseline: text-before-edge;" x="281.703125" y="289.83984375">after(ADVERTISE_PERIOD)</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[6]" after="msg[5]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[7]" after="msg[6]" call="msg[6]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[7].line" x1="720.859375" x2="250.3359375" y1="337.5234375" y2="357.5234375"></line>
+    <text class="messageSignature" id="msg[7].text" style="dominant-baseline: text-before-edge;" x="446.59765625" y="325.734375">advertise()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[8]" after="msg[7]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[9]" after="msg[8]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[9].polygon" points="200.451171875,413.41796875 210.8984375,402.970703125 289.7734375,402.970703125 300.220703125,413.41796875 289.7734375,423.865234375 210.8984375,423.865234375 "></polygon>
+    <a  href="javascript:backTo(6);">
+          <text class="invariantText" id="msg[9].text" style="dominant-baseline: text-before-edge;" x="210.8984375" y="402.5234375">Identifying</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[10]" after="msg[9]" call="msg[8]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[10].line" x1="250.3359375" x2="480.546875" y1="377.5234375" y2="449.3125"></line>
+    <text class="messageSignature" id="msg[10].text" style="dominant-baseline: text-before-edge;" x="326.8984375" y="391.62890625">IDENTIFY()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[11]" after="msg[10]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[12]" after="msg[11]" call="msg[11]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[12].line" x1="480.546875" x2="250.3359375" y1="469.3125" y2="489.3125"></line>
+    <text class="messageSignature" id="msg[12].text" style="dominant-baseline: text-before-edge;" x="260.09765625" y="457.5234375">identifyResp(true, true, true)</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[13]" after="msg[12]"><g id="set" class="set">
+    
+    <line class="messagePart" id="msg[13].line1" x1="250.3359375" x2="270.3359375" y1="509.3125" y2="509.3125"></line>
+    <line class="messagePart" id="msg[13].line2" x1="270.3359375" x2="270.3359375" y1="509.3125" y2="524.3125"></line>
+    <line class="messageArrow" id="msg[13].line3" x1="270.3359375" x2="250.3359375" y1="524.3125" y2="524.3125"></line>
+    <text class="messageSignature" id="msg[13].text" style="dominant-baseline: text-before-edge;" x="275.3359375" y="505.91796875">avoidAutoconnect = true</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[14]" after="msg[13]"><g id="set" class="set">
+    
+    <line class="messagePart" id="msg[14].line1" x1="250.3359375" x2="270.3359375" y1="529.3125" y2="529.3125"></line>
+    <line class="messagePart" id="msg[14].line2" x1="270.3359375" x2="270.3359375" y1="529.3125" y2="544.3125"></line>
+    <line class="messageArrow" id="msg[14].line3" x1="270.3359375" x2="250.3359375" y1="544.3125" y2="544.3125"></line>
+    <text class="messageSignature" id="msg[14].text" style="dominant-baseline: text-before-edge;" x="275.3359375" y="525.91796875">willReportStateViaPoll = true</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[15]" after="msg[14]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[15].polygon" points="142.154296875,565.20703125 152.6015625,554.759765625 348.0703125,554.759765625 358.517578125,565.20703125 348.0703125,575.654296875 152.6015625,575.654296875 "></polygon>
+    <a  href="javascript:backTo(12);">
+          <text class="invariantText" id="msg[15].text" style="dominant-baseline: text-before-edge;" x="152.6015625" y="554.3125">Enabled.Unconnected.Idle</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[16]" after="msg[15]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[17]" after="msg[16]" call="msg[16]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[17].line" x1="32.765625" x2="250.3359375" y1="601.1015625" y2="621.1015625"></line>
+    <text class="messageSignature" id="msg[17].text" style="dominant-baseline: text-before-edge;" x="101.90625" y="589.3125">getStatus()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[18]" after="msg[17]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[18].polygon" points="102.439453125,656.99609375 112.88671875,646.548828125 387.78515625,646.548828125 398.232421875,656.99609375 387.78515625,667.443359375 112.88671875,667.443359375 "></polygon>
+    <a  href="javascript:backTo(14);">
+          <text class="invariantText" id="msg[18].text" style="dominant-baseline: text-before-edge;" x="112.88671875" y="646.1015625">Enabled.Unconnected.QueryPending</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[19]" after="msg[18]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[20]" after="msg[19]"><g id="after">
+    <rect fill="url(#horizontalWhiteStripes)" id="msg[20].outline" stroke="none" x="27.765625" y="707.890625" width="698.09375" height="43.578125"></rect>
+    <text class="messageSignature" id="msg[20].text" style="dominant-baseline: text-before-edge;" x="281.703125" y="718.78515625">after(ADVERTISE_PERIOD)</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[21]" after="msg[20]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[22]" after="msg[21]" call="msg[21]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[22].line" x1="720.859375" x2="250.3359375" y1="766.46875" y2="786.46875"></line>
+    <text class="messageSignature" id="msg[22].text" style="dominant-baseline: text-before-edge;" x="446.59765625" y="754.6796875">advertise()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[23]" after="msg[22]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[24]" after="msg[23]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[24].polygon" points="121.556640625,842.36328125 132.00390625,831.916015625 368.66796875,831.916015625 379.115234375,842.36328125 368.66796875,852.810546875 132.00390625,852.810546875 "></polygon>
+    <a  href="javascript:backTo(17);">
+          <text class="invariantText" id="msg[24].text" style="dominant-baseline: text-before-edge;" x="132.00390625" y="831.46875">Enabled.Unconnected.Querying</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[25]" after="msg[24]" call="msg[23]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[25].line" x1="250.3359375" x2="480.546875" y1="806.46875" y2="878.2578125"></line>
+    <text class="messageSignature" id="msg[25].text" style="dominant-baseline: text-before-edge;" x="334.77734375" y="820.57421875">QUERY()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[26]" after="msg[25]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[27]" after="msg[26]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[28]" after="msg[27]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[28].polygon" points="428.548828125,954.15234375 438.99609375,943.705078125 522.09765625,943.705078125 532.544921875,954.15234375 522.09765625,964.599609375 438.99609375,964.599609375 "></polygon>
+    <a  href="javascript:backTo(18);">
+          <text class="invariantText" id="msg[28].text" style="dominant-baseline: text-before-edge;" x="438.99609375" y="943.2578125">Registering</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[29]" after="msg[28]" call="msg[27]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[29].line" x1="480.546875" x2="250.3359375" y1="918.2578125" y2="990.046875"></line>
+    <text class="messageSignature" id="msg[29].text" style="dominant-baseline: text-before-edge;" x="316.3828125" y="932.36328125">queryResp(0)</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[30]" after="msg[29]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[30].polygon" points="142.154296875,1025.94140625 152.6015625,1015.494140625 348.0703125,1015.494140625 358.517578125,1025.94140625 348.0703125,1036.388671875 152.6015625,1036.388671875 "></polygon>
+    <a  href="javascript:backTo(19);">
+          <text class="invariantText" id="msg[30].text" style="dominant-baseline: text-before-edge;" x="152.6015625" y="1015.046875">Enabled.Unconnected.Idle</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[31]" after="msg[30]" call="msg[19]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[31].line" x1="32.765625" x2="250.3359375" y1="692.890625" y2="1061.8359375"></line>
+    <text class="messageSignature" id="msg[31].text" style="dominant-baseline: text-before-edge;" x="101.90625" y="855.57421875">getStatus()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[32]" after="msg[31]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[32].polygon" points="102.439453125,1097.73046875 112.88671875,1087.283203125 387.78515625,1087.283203125 398.232421875,1097.73046875 387.78515625,1108.177734375 112.88671875,1108.177734375 "></polygon>
+    <a  href="javascript:backTo(20);">
+          <text class="invariantText" id="msg[32].text" style="dominant-baseline: text-before-edge;" x="112.88671875" y="1086.8359375">Enabled.Unconnected.QueryPending</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[33]" after="msg[32]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[34]" after="msg[33]" call="msg[26]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[34].line" x1="480.546875" x2="720.859375" y1="898.2578125" y2="1153.625"></line>
+    <text class="messageSignature" id="msg[34].text" style="dominant-baseline: text-before-edge;" x="508.078125" y="1004.15234375">registerForNotifications()</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[35]" after="msg[34]"><g id="set" class="set">
+    
+    <line class="messagePart" id="msg[35].line1" x1="720.859375" x2="740.859375" y1="1173.625" y2="1173.625"></line>
+    <line class="messagePart" id="msg[35].line2" x1="740.859375" x2="740.859375" y1="1173.625" y2="1188.625"></line>
+    <line class="messageArrow" id="msg[35].line3" x1="740.859375" x2="720.859375" y1="1188.625" y2="1188.625"></line>
+    <text class="messageSignature" id="msg[35].text" style="dominant-baseline: text-before-edge;" x="745.859375" y="1170.23046875">nbDisconErrors = 0</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[36]" after="msg[35]"><g id="call">
+    
+    <!-- constraints -->
+    
+   </g></g></g>
+ <g><g id="msg[37]" after="msg[36]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[37].polygon" points="654.427734375,1229.51953125 664.875,1219.072265625 776.84375,1219.072265625 787.291015625,1229.51953125 776.84375,1239.966796875 664.875,1239.966796875 "></polygon>
+    <a  href="javascript:backTo(23);">
+          <text class="invariantText" id="msg[37].text" style="dominant-baseline: text-before-edge;" x="664.875" y="1218.625">Connected.Idle</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[38]" after="msg[37]" call="msg[36]"><g id="accept">
+    
+    <line class="messageArrow" id="msg[38].line" x1="720.859375" x2="480.546875" y1="1193.625" y2="1265.4140625"></line>
+    <text class="messageSignature" id="msg[38].text" style="dominant-baseline: text-before-edge;" x="472.4375" y="1207.73046875">registerForNotificationsResp(false)</text>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[39]" after="msg[38]"><g id="invariant">
+    
+    
+    <polygon class="invariant" id="msg[39].polygon" points="442.080078125,1301.30859375 452.52734375,1290.861328125 508.56640625,1290.861328125 519.013671875,1301.30859375 508.56640625,1311.755859375 452.52734375,1311.755859375 "></polygon>
+    <a  href="javascript:backTo(24);">
+          <text class="invariantText" id="msg[39].text" style="dominant-baseline: text-before-edge;" x="452.52734375" y="1290.4140625">Waiting</text>
+         </a>
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[40]" after="msg[39]"><g id="fragment" class="fragment">
+    <rect id="msg[40].outline" x="27.765625" y="1332.203125" width="698.09375" height="21.7890625"></rect>
+    <polygon id="msg[40].polygon" points="27.765625,1332.203125 90.9453125,1332.203125 90.9453125,1342.203125 80.9453125,1353.9921875 27.765625,1353.9921875 "></polygon>
+    <text id="msg[40].label" style="dominant-baseline: text-before-edge;" x="37.765625" y="1332.203125">loop</text>
+    
+    <!-- constraints -->
+    
+    
+   </g></g></g>
+ <g><g id="msg[41]" call="msg[33]" rightmost="participant.device" parent="msg[40]"><g id="unaccepted">
+    <line class="messageArrow" id="msg[41].line" x1="32.765625" x2="870.859375" y1="1133.625" y2="1133.625"></line>
+    <text class="messageSignature" id="msg[41].text" style="dominant-baseline: text-before-edge;" x="412.16796875" y="1111.8359375">getStatus()</text>
+    <!-- constraints -->
+    
+   </g></g></g>
+
+ 
+ 
+</svg>
