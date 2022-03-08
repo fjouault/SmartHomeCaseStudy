@@ -1,5 +1,18 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:c="http://myconstraints" viewBox="-6.701171875 -59 896.029296875 1543.78125">
- <style>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:c="http://myconstraints" viewBox="-6.701171875 -59 896.029296875 1543.78125" width="896.029296875" height="1543.78125">
+ <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.gstatic.com/"/>
+ 
+			
+			<style>
+				/* For browers, who do not know svgdom's default OpenSans font. */
+				@font-face {
+					font-family: 'OpenSans';
+					font-style: normal;
+					font-weight: 400;
+					src: url('https://raw.githubusercontent.com/ppowalowski/fontface-open-sans/master/open-sans/Regular/OpenSans-Regular.woff') format('woff');
+				}
+
+				
+				
   svg {
         --main-fill: #FEFECE;
         --note-fill: #FBFB77;
@@ -82,7 +95,21 @@
   .dashed {
    stroke-dasharray: 2.0,2.0;
   }
- </style>
+ 
+				/*
+					svgdom defaults
+						not necessary for svgdom, but necessary for browsers or rsvg to render in the same way
+						OpenSans can be install on debian-based distributions with
+							sudo apt install fonts-open-sans
+				*/
+				text {
+					font-family: OpenSans, Open Sans;
+					font-size: 16;
+				}
+			
+			</style>
+		
+		
  
   
   <defs>
