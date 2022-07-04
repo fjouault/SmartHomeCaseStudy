@@ -7,9 +7,9 @@ All diagrams are automatically generated from the AnimUML model.
 
 # Verification Result Example
 
-The following diagram is a sequence diagram representing a failed verification counter example.
+The following diagram is a sequence diagram representing a failed verification counter example for property *keepsQuerying*: `[] <> (queryRequested || stateReported || apiIdle)`.
 It happens when the `app` state machine does not check the response to `registerForNotifications`, and does not attempt to disconnect from the `device` if it failed (see [the erroneous `app` state machine version](#erroneous-version)).
-The loop at the end (i.e., the [Büchi](https://en.wikipedia.org/wiki/B%C3%BCchi_automaton) acceptance condition) is empty because the model is then stuck/deadlocked.
+The loop at the end (i.e., the [Büchi](https://en.wikipedia.org/wiki/B%C3%BCchi_automaton) acceptance condition) is empty because the composition of the model with the property is then stuck/deadlocked.
 The problem is that the `device` is stuck in its `Idle` state, in which it does not send `advertise` messages, while the `api` is stuck in its `QueryPending` state, waiting for such a message.
 The `app` cannot make any progress either in this situation, because it only handles the intents and notifications the `api` sends it.
 It is also possible to visualize [the full model state](LocalFulfillment-withError.svg).
